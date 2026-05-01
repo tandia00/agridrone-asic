@@ -1,0 +1,1 @@
+../../rtl/spi_slave.v

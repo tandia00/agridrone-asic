@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2024 AgriDrone Team
+# SPDX-License-Identifier: Apache-2.0
+# Yosys lint + generic synthesis pass
+# Flags latches, multi-drivers, combinatorial loops, and gives a gate count.
+read_verilog -sv rtl/pwm_multichannel.v
+read_verilog -sv rtl/spray_controller.v
+read_verilog -sv rtl/altitude_fusion.v
+read_verilog -sv rtl/safety_watchdog.v
+read_verilog -sv rtl/spi_slave.v
+read_verilog -sv rtl/register_file.v
+read_verilog -sv rtl/top.v
+
+hierarchy -check -top top
+proc
+opt
+check -assert
+synth -top top -flatten
+stat

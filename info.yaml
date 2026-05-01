@@ -1,0 +1,35 @@
+---
+project:
+  title: "AgriDrone ASIC Co-Processor"
+  description: >
+    A custom ASIC co-processor designed for autonomous agricultural drone control.
+    Integrates SPI slave interface, 8-channel PWM generator, altitude sensor fusion
+    (IIR filter, 4-stage pipeline), spray controller, safety watchdog, and register
+    file. Implemented in SKY130HD process at 50 MHz.
+  author: "AgriDrone Team"
+  organisation: ""
+  category: "Digital Logic"
+  license: "Apache-2.0"
+
+  top_level_netlist: verilog/gl/user_project_wrapper.v
+  top_level_rtl:     verilog/rtl/user_project_wrapper.v
+
+  # chipIgnite / MPW submission info
+  efabless_project_id: ""      # assigned by Efabless portal after registration
+  shuttle: "chipIgnite"
+  process: "sky130A"
+  die_area: ""                 # filled by OpenLane: see def/user_project_wrapper.def
+
+  # Source control
+  git_url: "https://github.com/agridrone/agridrone-asic"
+  git_branch: "main"
+  git_commit: ""               # pin to final tape-out commit SHA
+
+  # Clock
+  clock_period_ns: 20.0        # 50 MHz
+  clock_port: "wb_clk_i"
+
+  # Dependencies
+  caravel_version: "mpw-9c"
+  pdk: "sky130A"
+  pdk_version: "1.0.397"

@@ -1,0 +1,21 @@
+sim/build/
+sim/build_gls/
+*.vcd
+*.vvp
+openlane/runs/
+*.log
+.DS_Store
+precheck_output/
+
+# Large binary artifacts
+*.gds2
+*.oas
+
+# Allow tape-out files
+!gds/*.gds
+!lef/*.lef
+!def/*.def
+!mag/*.mag
+
+# Do NOT ignore the directory structure itself
+!**/.gitkeep

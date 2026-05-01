@@ -1,0 +1,25 @@
+{
+  "caravel": {
+    "repo": "https://github.com/efabless/caravel",
+    "branch": "mpw-9c",
+    "commit": ""
+  },
+  "caravel_mgmt_soc_litex": {
+    "repo": "https://github.com/efabless/caravel_mgmt_soc_litex",
+    "branch": "main",
+    "commit": ""
+  },
+  "caravel_pdk": {
+    "name": "sky130A",
+    "version": "1.0.397",
+    "source": "https://github.com/google/skywater-pdk"
+  },
+  "open_pdk": {
+    "repo": "https://github.com/RTimothyEdwards/open_pdks",
+    "tag": "1.0.397"
+  },
+  "openlane": {
+    "repo": "https://github.com/efabless/openlane",
+    "tag": "2023.11.23"
+  }
+}

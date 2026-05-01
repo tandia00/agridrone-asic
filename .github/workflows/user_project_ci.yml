@@ -1,0 +1,132 @@
+name: AgriDrone ASIC – Efabless Precheck & CI
+
+on:
+  push:
+    branches: [main, tape-out]
+  pull_request:
+    branches: [main]
+
+jobs:
+  # ── 1. RTL lint & simulation ──────────────────────────────────────────────
+  rtl-sim:
+    name: RTL Lint & Simulation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Icarus Verilog
+        run: sudo apt-get install -y iverilog
+
+      - name: Lint RTL with Icarus
+        run: |
+          iverilog -Wall -g2012 -o /dev/null \
+            verilog/rtl/top.v \
+            verilog/rtl/spi_slave.v \
+            verilog/rtl/register_file.v \
+            verilog/rtl/pwm_multichannel.v \
+            verilog/rtl/altitude_fusion.v \
+            verilog/rtl/spray_controller.v \
+            verilog/rtl/safety_watchdog.v
+
+      - name: Run top-level testbench
+        run: |
+          iverilog -g2012 -o sim_top \
+            tb/tb_top.v \
+            verilog/rtl/top.v \
+            verilog/rtl/spi_slave.v \
+            verilog/rtl/register_file.v \
+            verilog/rtl/pwm_multichannel.v \
+            verilog/rtl/altitude_fusion.v \
+            verilog/rtl/spray_controller.v \
+            verilog/rtl/safety_watchdog.v
+          vvp sim_top | tee sim_top.log
+          grep -q "PASSED" sim_top.log
+
+      - name: Run PWM testbench
+        run: |
+          iverilog -g2012 -o sim_pwm \
+            tb/tb_pwm_multichannel.v \
+            verilog/rtl/pwm_multichannel.v
+          vvp sim_pwm | tee sim_pwm.log
+          grep -q "PASSED" sim_pwm.log
+
+      - name: Run watchdog testbench
+        run: |
+          iverilog -g2012 -o sim_wdog \
+            tb/tb_safety_watchdog.v \
+            verilog/rtl/safety_watchdog.v
+          vvp sim_wdog | tee sim_wdog.log
+          grep -q "PASSED" sim_wdog.log
+
+  # ── 2. Efabless mpw-precheck ─────────────────────────────────────────────
+  precheck:
+    name: Efabless mpw-precheck
+    runs-on: ubuntu-latest
+    needs: rtl-sim
+    # Only run on pushes to tape-out branch to avoid billing on every PR
+    if: github.ref == 'refs/heads/tape-out'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Clone mpw_precheck scripts
+        run: git clone https://github.com/efabless/mpw_precheck.git $HOME/mpw_precheck
+
+      - name: Pull precheck Docker image
+        run: docker pull efabless/mpw_precheck:latest
+
+      - name: Install PDK (sky130A)
+        run: |
+          pip install volare
+          volare enable --pdk sky130 --pdk-root $HOME/pdk
+
+      - name: Run precheck
+        run: |
+          mkdir -p precheck_output
+          docker run --rm \
+            -v "${{ github.workspace }}:/project" \
+            -v "$HOME/mpw_precheck:/precheck" \
+            -v "$HOME/pdk:/pdk" \
+            -e INPUT_DIRECTORY=/project \
+            -e PRECHECK_ROOT=/precheck \
+            efabless/mpw_precheck:latest \
+            bash /precheck/run_mpwprecheck.sh \
+              /project /precheck /pdk/sky130A
+
+      - name: Upload precheck report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: precheck-report
+          path: precheck_output/
+
+  # ── 3. Wrapper check (GDS present) ───────────────────────────────────────
+  gds-check:
+    name: GDS / Artifact Presence Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify required submission artifacts
+        run: |
+          echo "Checking required Efabless submission artifacts..."
+          MISSING=0
+          for f in \
+              gds/user_project_wrapper.gds \
+              def/user_project_wrapper.def \
+              lef/user_project_wrapper.lef \
+              verilog/gl/user_project_wrapper.v \
+              verilog/rtl/user_project_wrapper.v \
+              info.yaml \
+              dependencies.json; do
+            if [ -f "$f" ]; then
+              echo "  ✓ $f"
+            else
+              echo "  ✗ MISSING: $f"
+              MISSING=$((MISSING+1))
+            fi
+          done
+          if [ $MISSING -gt 0 ]; then
+            echo "ERROR: $MISSING required artifact(s) missing."
+            exit 1
+          fi
+          echo "All required artifacts present."
