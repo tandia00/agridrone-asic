@@ -75,7 +75,7 @@ copy_if_exists "$FINAL/def/${DESIGN}.def"              def/user_project_wrapper.
 copy_if_exists "$FINAL/lef/${DESIGN}.lef"              lef/user_project_wrapper.lef
 copy_if_exists "$FINAL/maglef/${DESIGN}.mag"           maglef/user_project_wrapper.mag
 copy_if_exists "$FINAL/spi/lvs/${DESIGN}.spice"        spi/lvs/user_project_wrapper.spice
-copy_if_exists "$FINAL/verilog/gl/${DESIGN}.nl.v"      verilog/gl/user_project_wrapper.v
+copy_if_exists "$FINAL/verilog/gl/${DESIGN}.v"         verilog/gl/user_project_wrapper.v
 copy_if_exists "$FINAL/sdf/nom/${DESIGN}.nom.sdf"      sdf/nom/user_project_wrapper.nom.sdf
 copy_if_exists "$FINAL/sdf/min/${DESIGN}.min.sdf"      sdf/min/user_project_wrapper.min.sdf
 copy_if_exists "$FINAL/sdf/max/${DESIGN}.max.sdf"      sdf/max/user_project_wrapper.max.sdf

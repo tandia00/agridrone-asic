@@ -546,7 +546,6 @@ MACRO user_project_wrapper
   PIN io_oeb[0]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 1786.730 0.000 1787.010 4.000 ;
@@ -555,7 +554,6 @@ MACRO user_project_wrapper
   PIN io_oeb[10]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2513.530 0.000 2513.810 4.000 ;
@@ -564,7 +562,6 @@ MACRO user_project_wrapper
   PIN io_oeb[11]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2586.210 0.000 2586.490 4.000 ;
@@ -573,7 +570,6 @@ MACRO user_project_wrapper
   PIN io_oeb[12]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 1981.310 3516.000 1981.590 3520.000 ;
@@ -582,7 +578,6 @@ MACRO user_project_wrapper
   PIN io_oeb[13]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2055.830 3516.000 2056.110 3520.000 ;
@@ -591,7 +586,6 @@ MACRO user_project_wrapper
   PIN io_oeb[14]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2130.350 3516.000 2130.630 3520.000 ;
@@ -600,7 +594,6 @@ MACRO user_project_wrapper
   PIN io_oeb[15]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2204.870 3516.000 2205.150 3520.000 ;
@@ -609,7 +602,6 @@ MACRO user_project_wrapper
   PIN io_oeb[16]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2279.390 3516.000 2279.670 3520.000 ;
@@ -618,7 +610,6 @@ MACRO user_project_wrapper
   PIN io_oeb[17]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2353.910 3516.000 2354.190 3520.000 ;
@@ -627,7 +618,6 @@ MACRO user_project_wrapper
   PIN io_oeb[18]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2428.430 3516.000 2428.710 3520.000 ;
@@ -636,7 +626,6 @@ MACRO user_project_wrapper
   PIN io_oeb[19]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2502.950 3516.000 2503.230 3520.000 ;
@@ -645,7 +634,6 @@ MACRO user_project_wrapper
   PIN io_oeb[1]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 1859.410 0.000 1859.690 4.000 ;
@@ -654,7 +642,6 @@ MACRO user_project_wrapper
   PIN io_oeb[20]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2577.470 3516.000 2577.750 3520.000 ;
@@ -663,7 +650,6 @@ MACRO user_project_wrapper
   PIN io_oeb[21]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2651.990 3516.000 2652.270 3520.000 ;
@@ -672,7 +658,6 @@ MACRO user_project_wrapper
   PIN io_oeb[22]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2726.510 3516.000 2726.790 3520.000 ;
@@ -681,7 +666,6 @@ MACRO user_project_wrapper
   PIN io_oeb[23]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2801.030 3516.000 2801.310 3520.000 ;
@@ -690,7 +674,6 @@ MACRO user_project_wrapper
   PIN io_oeb[24]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2875.550 3516.000 2875.830 3520.000 ;
@@ -699,7 +682,6 @@ MACRO user_project_wrapper
   PIN io_oeb[25]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1307.000 2920.000 1307.600 ;
@@ -708,7 +690,6 @@ MACRO user_project_wrapper
   PIN io_oeb[26]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1354.600 2920.000 1355.200 ;
@@ -717,7 +698,6 @@ MACRO user_project_wrapper
   PIN io_oeb[27]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1402.200 2920.000 1402.800 ;
@@ -726,7 +706,6 @@ MACRO user_project_wrapper
   PIN io_oeb[28]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1449.800 2920.000 1450.400 ;
@@ -735,7 +714,6 @@ MACRO user_project_wrapper
   PIN io_oeb[29]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1497.400 2920.000 1498.000 ;
@@ -744,7 +722,6 @@ MACRO user_project_wrapper
   PIN io_oeb[2]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 1932.090 0.000 1932.370 4.000 ;
@@ -753,7 +730,6 @@ MACRO user_project_wrapper
   PIN io_oeb[30]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1545.000 2920.000 1545.600 ;
@@ -762,7 +738,6 @@ MACRO user_project_wrapper
   PIN io_oeb[31]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1592.600 2920.000 1593.200 ;
@@ -771,7 +746,6 @@ MACRO user_project_wrapper
   PIN io_oeb[32]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1640.200 2920.000 1640.800 ;
@@ -780,7 +754,6 @@ MACRO user_project_wrapper
   PIN io_oeb[33]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1687.800 2920.000 1688.400 ;
@@ -789,7 +762,6 @@ MACRO user_project_wrapper
   PIN io_oeb[34]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1735.400 2920.000 1736.000 ;
@@ -798,7 +770,6 @@ MACRO user_project_wrapper
   PIN io_oeb[35]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1783.000 2920.000 1783.600 ;
@@ -807,7 +778,6 @@ MACRO user_project_wrapper
   PIN io_oeb[36]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1830.600 2920.000 1831.200 ;
@@ -816,7 +786,6 @@ MACRO user_project_wrapper
   PIN io_oeb[37]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met3 ;
         RECT 2916.000 1878.200 2920.000 1878.800 ;
@@ -825,7 +794,6 @@ MACRO user_project_wrapper
   PIN io_oeb[3]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2004.770 0.000 2005.050 4.000 ;
@@ -834,7 +802,6 @@ MACRO user_project_wrapper
   PIN io_oeb[4]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2077.450 0.000 2077.730 4.000 ;
@@ -843,7 +810,6 @@ MACRO user_project_wrapper
   PIN io_oeb[5]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2150.130 0.000 2150.410 4.000 ;
@@ -852,7 +818,6 @@ MACRO user_project_wrapper
   PIN io_oeb[6]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2222.810 0.000 2223.090 4.000 ;
@@ -861,7 +826,6 @@ MACRO user_project_wrapper
   PIN io_oeb[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2295.490 0.000 2295.770 4.000 ;
@@ -870,7 +834,6 @@ MACRO user_project_wrapper
   PIN io_oeb[8]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2368.170 0.000 2368.450 4.000 ;
@@ -879,7 +842,6 @@ MACRO user_project_wrapper
   PIN io_oeb[9]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.891000 ;
     PORT
       LAYER met2 ;
         RECT 2440.850 0.000 2441.130 4.000 ;
@@ -7579,14 +7541,12 @@ MACRO user_project_wrapper
         RECT 1651.670 83.135 1652.570 3507.945 ;
         RECT 1656.470 83.135 1657.370 3507.945 ;
         RECT 1661.270 83.135 1662.170 3507.945 ;
-        RECT 1666.070 83.135 1794.130 3507.945 ;
+        RECT 1666.070 83.135 1740.340 3507.945 ;
       LAYER met5 ;
-        RECT 1087.100 1852.630 1794.380 1944.350 ;
-        RECT 1087.100 1672.630 1794.380 1812.730 ;
-        RECT 1093.680 1632.730 1794.380 1642.330 ;
-        RECT 1087.100 1492.630 1794.380 1632.730 ;
-        RECT 1093.680 1478.230 1794.380 1492.630 ;
-        RECT 1087.100 1326.730 1794.380 1452.730 ;
+        RECT 1105.280 1852.630 1794.380 1944.350 ;
+        RECT 1105.280 1672.630 1794.380 1812.730 ;
+        RECT 1105.280 1478.230 1794.380 1642.330 ;
+        RECT 1105.280 1326.730 1794.380 1452.730 ;
   END
 END user_project_wrapper
 END LIBRARY
