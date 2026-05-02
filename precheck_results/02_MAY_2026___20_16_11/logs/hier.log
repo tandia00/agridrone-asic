@@ -1,0 +1,8 @@
+BEGIN: Sat May  2 20:19:35 2026
+Creating /tmp/tmptc_s7eed/repo/precheck_results/02_MAY_2026___20_16_11/tmp/verilog.cells from the following files...
+	/tmp/tmptc_s7eed/repo/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /tmp/tmptc_s7eed/repo/gds/user_project_wrapper.gds
+	to /tmp/tmptc_s7eed/repo/precheck_results/02_MAY_2026___20_16_11/tmp/layout.txt
+Hierarchy check for user_project_wrapper passed.
+END: Sat May  2 20:19:37 2026
+Runtime: 0:00:02 (hh:mm:ss)
