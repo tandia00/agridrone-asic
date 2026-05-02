@@ -1,0 +1,84 @@
+{
+  "precheck": {
+    "version": "1.3.2",
+    "timestamp": "2026-05-02T21:29:26.192512+00:00",
+    "pdk": "sky130A",
+    "passed": false,
+    "checks": {
+      "topcell_check": {
+        "status": "pass",
+        "duration_s": 0.23
+      },
+      "gpio_defines": {
+        "status": "pass",
+        "duration_s": 1.18
+      },
+      "xor": {
+        "status": "fail",
+        "duration_s": 8.19
+      },
+      "klayout_feol": {
+        "status": "fail",
+        "duration_s": 34.54,
+        "details": "94 DRC violations. See /tmp/tmpaw9zs9cy/repo/precheck_results/02_MAY_2026___21_25_46/outputs/reports/klayout_feol_check.xml"
+      },
+      "klayout_beol": {
+        "status": "fail",
+        "duration_s": 87.54,
+        "details": "280 DRC violations. See /tmp/tmpaw9zs9cy/repo/precheck_results/02_MAY_2026___21_25_46/outputs/reports/klayout_beol_check.xml"
+      },
+      "klayout_offgrid": {
+        "status": "pass",
+        "duration_s": 20.74
+      },
+      "klayout_met_min_ca_density": {
+        "status": "pass",
+        "duration_s": 8.09
+      },
+      "klayout_pin_label_purposes_overlapping_drawing": {
+        "status": "pass",
+        "duration_s": 5.89
+      },
+      "klayout_zeroarea": {
+        "status": "pass",
+        "duration_s": 3.15
+      },
+      "spike_check": {
+        "status": "pass",
+        "duration_s": 3.46
+      },
+      "illegal_cellname_check": {
+        "status": "pass",
+        "duration_s": 0.25
+      },
+      "lvs": {
+        "status": "fail",
+        "duration_s": 23.03,
+        "details": "LVS FAILED (stat=1), see /tmp/tmpaw9zs9cy/repo/precheck_results/02_MAY_2026___21_25_46/logs/LVS_check.log"
+      },
+      "oeb": {
+        "status": "fail",
+        "duration_s": 23.14,
+        "details": "0 errors, 0 warnings across 0 GPIOs",
+        "report": {
+          "report_relpath": "/tmp/tmpaw9zs9cy/repo/precheck_results/02_MAY_2026___21_25_46/outputs/reports/cvc.oeb.report",
+          "design_type": "caravel",
+          "gpios": [],
+          "messages": [],
+          "summary": {
+            "total": 0,
+            "errors": 0,
+            "warnings": 0,
+            "no_issues_banner": true
+          }
+        }
+      },
+      "magic_drc": {
+        "status": "skip",
+        "duration_s": 0,
+        "reason": "optional (use --magic-drc to include)"
+      }
+    },
+    "input_file_hash": "68ca7d62ad681c62cf5a92d3f4cd05f3524b98b4"
+  }
+}
