@@ -1,0 +1,79 @@
+ gpio/user/analog |   in   |   out  | analog |  oeb min/sim/max  | configuration
+   0 /  0 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 1 warnings/errors
+   1 /  1 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 1 warnings/errors
+   2 /  2 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 1 warnings/errors
+   3 /  3 /       |        |        |        |      /     /      | FIXED_STD_INPUT_PULLUP 1 warnings/errors
+   4 /  4 /       |        |        |        |      /     /      | FIXED_STD_INPUT_NOPULL 1 warnings/errors
+   5 /  5 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+   6 /  6 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+   7 /  7 /   0   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+   8 /  8 /   1   |      4 |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+   9 /  9 /   2   |      4 |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  10 / 10 /   3   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  11 / 11 /   4   |      4 |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  12 / 12 /   5   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  13 / 13 /   6   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  14 / 14 /   7   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  15 / 15 /   8   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  16 / 16 /   9   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  17 / 17 /  10   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  18 / 18 /  11   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  19 / 19 /  12   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  20 / 20 /  13   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  21 / 21 /  14   |      4 |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  22 / 22 /  15   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  23 / 23 /  16   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  24 / 24 /  17   |        |      2 |        |      /     /      | USER_STD_OUTPUT 1 warnings/errors
+  25 / 25 /  18   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  26 / 26 /  19   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  27 / 27 /  20   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  28 / 28 /  21   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  29 / 29 /  22   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  30 / 30 /  23   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  31 / 31 /  24   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  32 / 32 /  25   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  33 / 33 /  26   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  34 / 34 /  27   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  35 / 35 /  28   |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  36 / 36 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+  37 / 37 /       |        |        |        |      /     /      | MGMT_STD_INPUT_NOPULL 1 warnings/errors
+
+*** Detected the following warnings and/or errors: ***
+GPIO  0: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  1: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  2: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  3: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  4: Warning: user oeb connection to fixed input gpio - firmware override required
+GPIO  5: Warning: user oeb connection to management input gpio ignored
+GPIO  6: Warning: user oeb connection to management input gpio ignored
+GPIO  7: Warning: user oeb connection to management input gpio ignored
+GPIO  8: Warning: user oeb connection to management input gpio ignored
+GPIO  9: Warning: user oeb connection to management input gpio ignored
+GPIO 10: Warning: user oeb is never low - output never enabled
+GPIO 11: Warning: user oeb connection to management input gpio ignored
+GPIO 12: Warning: user oeb is never low - output never enabled
+GPIO 13: Warning: user oeb is never low - output never enabled
+GPIO 14: Warning: user oeb is never low - output never enabled
+GPIO 15: Warning: user oeb is never low - output never enabled
+GPIO 16: Warning: user oeb is never low - output never enabled
+GPIO 17: Warning: user oeb is never low - output never enabled
+GPIO 18: Warning: user oeb is never low - output never enabled
+GPIO 19: Warning: user oeb is never low - output never enabled
+GPIO 20: Warning: user oeb is never low - output never enabled
+GPIO 21: Warning: user oeb connection to management input gpio ignored
+GPIO 22: Warning: user oeb is never low - output never enabled
+GPIO 23: Warning: user oeb is never low - output never enabled
+GPIO 24: Warning: user oeb is never low - output never enabled
+GPIO 25: Warning: user oeb connection to management input gpio ignored
+GPIO 26: Warning: user oeb connection to management input gpio ignored
+GPIO 27: Warning: user oeb connection to management input gpio ignored
+GPIO 28: Warning: user oeb connection to management input gpio ignored
+GPIO 29: Warning: user oeb connection to management input gpio ignored
+GPIO 30: Warning: user oeb connection to management input gpio ignored
+GPIO 31: Warning: user oeb connection to management input gpio ignored
+GPIO 32: Warning: user oeb connection to management input gpio ignored
+GPIO 33: Warning: user oeb connection to management input gpio ignored
+GPIO 34: Warning: user oeb connection to management input gpio ignored
+GPIO 35: Warning: user oeb connection to management input gpio ignored
+GPIO 36: Warning: user oeb connection to management input gpio ignored
+GPIO 37: Warning: user oeb connection to management input gpio ignored
