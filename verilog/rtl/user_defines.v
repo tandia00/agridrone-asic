@@ -35,10 +35,10 @@
 `define USER_CONFIG_GPIO_7_INIT  `GPIO_MODE_MGMT_STD_INPUT_NOPULL
 
 // ── SPI peripheral interface ──────────────────────────────────────────────
-`define USER_CONFIG_GPIO_8_INIT  `GPIO_MODE_USER_STD_INPUT_NOPULL
-`define USER_CONFIG_GPIO_9_INIT  `GPIO_MODE_USER_STD_INPUT_NOPULL
+`define USER_CONFIG_GPIO_8_INIT  `GPIO_MODE_MGMT_STD_INPUT_NOPULL
+`define USER_CONFIG_GPIO_9_INIT  `GPIO_MODE_MGMT_STD_INPUT_NOPULL
 `define USER_CONFIG_GPIO_10_INIT `GPIO_MODE_USER_STD_OUTPUT
-`define USER_CONFIG_GPIO_11_INIT `GPIO_MODE_USER_STD_INPUT_NOPULL
+`define USER_CONFIG_GPIO_11_INIT `GPIO_MODE_MGMT_STD_INPUT_NOPULL
 
 // ── PWM motor outputs (8 channels) ───────────────────────────────────────
 `define USER_CONFIG_GPIO_12_INIT `GPIO_MODE_USER_STD_OUTPUT
@@ -52,7 +52,7 @@
 
 // ── Spray controller ─────────────────────────────────────────────────────
 `define USER_CONFIG_GPIO_20_INIT `GPIO_MODE_USER_STD_OUTPUT
-`define USER_CONFIG_GPIO_21_INIT `GPIO_MODE_USER_STD_INPUT_NOPULL
+`define USER_CONFIG_GPIO_21_INIT `GPIO_MODE_MGMT_STD_INPUT_NOPULL
 
 // ── Safety outputs ────────────────────────────────────────────────────────
 `define USER_CONFIG_GPIO_22_INIT `GPIO_MODE_USER_STD_OUTPUT

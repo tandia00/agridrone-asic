@@ -12,6 +12,14 @@
 .subckt sky130_fd_sc_hd__buf_12 A VGND VNB VPB VPWR X
 .ends
 
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_4 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_4 A VGND VNB VPB VPWR X
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_6 abstract view
+.subckt sky130_fd_sc_hd__buf_6 A VGND VNB VPB VPWR X
+.ends
+
 * Black-box entry subcircuit for sky130_fd_sc_hd__inv_2 abstract view
 .subckt sky130_fd_sc_hd__inv_2 A VGND VNB VPB VPWR Y
 .ends
@@ -123,478 +131,446 @@
 + wbs_dat_o[28] wbs_dat_o[29] wbs_dat_o[2] wbs_dat_o[30] wbs_dat_o[31] wbs_dat_o[3]
 + wbs_dat_o[4] wbs_dat_o[5] wbs_dat_o[6] wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0]
 + wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3] wbs_stb_i wbs_we_i
-Xuser_project_wrapper_81 user_project_wrapper_81/VGND VSUBS user_project_wrapper_81/VPB
-+ user_project_wrapper_81/VPWR user_project_wrapper_81/HI la_data_out[125] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_70 user_project_wrapper_70/VGND VSUBS user_project_wrapper_70/VPB
-+ user_project_wrapper_70/VPWR user_project_wrapper_70/HI la_data_out[115] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_92 user_project_wrapper_92/VGND VSUBS user_project_wrapper_92/VPB
-+ user_project_wrapper_92/VPWR user_project_wrapper_92/HI la_data_out[1] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_92/VPWR user_project_wrapper_92/HI la_data_out[107] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_81 user_project_wrapper_81/VGND VSUBS user_project_wrapper_81/VPB
++ user_project_wrapper_81/VPWR user_project_wrapper_81/HI io_out[7] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_70 user_project_wrapper_70/VGND VSUBS user_project_wrapper_70/VPB
++ user_project_wrapper_70/VPWR user_project_wrapper_70/HI io_out[31] sky130_fd_sc_hd__conb_1
+Xoutput20 output28/A output20/VGND VSUBS output20/VPB output20/VPWR io_oeb[15] sky130_fd_sc_hd__buf_4
 Xoutput7 output7/A output7/VGND VSUBS output7/VPB output7/VPWR io_out[16] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_119 user_project_wrapper_119/VGND VSUBS user_project_wrapper_119/VPB
-+ user_project_wrapper_119/VPWR user_project_wrapper_119/HI la_data_out[44] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_108 user_project_wrapper_108/VGND VSUBS user_project_wrapper_108/VPB
-+ user_project_wrapper_108/VPWR user_project_wrapper_108/HI la_data_out[34] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_108/VPWR user_project_wrapper_108/HI la_data_out[121] sky130_fd_sc_hd__conb_1
+Xoutput42 output44/A output42/VGND VSUBS output42/VPB output42/VPWR io_oeb[35] sky130_fd_sc_hd__buf_4
+Xoutput31 output51/A output31/VGND VSUBS output31/VPB output31/VPWR io_oeb[25] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_119 user_project_wrapper_119/VGND VSUBS user_project_wrapper_119/VPB
++ user_project_wrapper_119/VPWR user_project_wrapper_119/HI la_data_out[16] sky130_fd_sc_hd__conb_1
+Xoutput21 output28/A output21/VGND VSUBS output21/VPB output21/VPWR io_oeb[16] sky130_fd_sc_hd__buf_4
 Xoutput10 output10/A output10/VGND VSUBS output10/VPB output10/VPWR io_out[19] sky130_fd_sc_hd__buf_4
 Xoutput8 output8/A output8/VGND VSUBS output8/VPB output8/VPWR io_out[17] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_82 user_project_wrapper_82/VGND VSUBS user_project_wrapper_82/VPB
-+ user_project_wrapper_82/VPWR user_project_wrapper_82/HI la_data_out[126] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_71 user_project_wrapper_71/VGND VSUBS user_project_wrapper_71/VPB
-+ user_project_wrapper_71/VPWR user_project_wrapper_71/HI la_data_out[116] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_60 user_project_wrapper_60/VGND VSUBS user_project_wrapper_60/VPB
-+ user_project_wrapper_60/VPWR user_project_wrapper_60/HI la_data_out[106] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_109 user_project_wrapper_109/VGND VSUBS user_project_wrapper_109/VPB
-+ user_project_wrapper_109/VPWR user_project_wrapper_109/HI la_data_out[35] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_109/VPWR user_project_wrapper_109/HI la_data_out[122] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_93 user_project_wrapper_93/VGND VSUBS user_project_wrapper_93/VPB
-+ user_project_wrapper_93/VPWR user_project_wrapper_93/HI la_data_out[20] sky130_fd_sc_hd__conb_1
-Xoutput9 output9/A output9/VGND VSUBS output9/VPB output9/VPWR io_out[18] sky130_fd_sc_hd__buf_4
++ user_project_wrapper_93/VPWR user_project_wrapper_93/HI la_data_out[108] sky130_fd_sc_hd__conb_1
+Xoutput43 output44/A output43/VGND VSUBS output43/VPB output43/VPWR io_oeb[36] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_82 user_project_wrapper_82/VGND VSUBS user_project_wrapper_82/VPB
++ user_project_wrapper_82/VPWR user_project_wrapper_82/HI io_out[8] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_60 user_project_wrapper_60/VGND VSUBS user_project_wrapper_60/VPB
++ user_project_wrapper_60/VPWR user_project_wrapper_60/HI io_out[11] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_71 user_project_wrapper_71/VGND VSUBS user_project_wrapper_71/VPB
++ user_project_wrapper_71/VPWR user_project_wrapper_71/HI io_out[32] sky130_fd_sc_hd__conb_1
+Xoutput32 output51/A output32/VGND VSUBS output32/VPB output32/VPWR io_oeb[26] sky130_fd_sc_hd__buf_4
+Xoutput22 output28/A output22/VGND VSUBS output22/VPB output22/VPWR io_oeb[17] sky130_fd_sc_hd__buf_4
 Xoutput11 output11/A output11/VGND VSUBS output11/VPB output11/VPWR io_out[22] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_83 user_project_wrapper_83/VGND VSUBS user_project_wrapper_83/VPB
-+ user_project_wrapper_83/VPWR user_project_wrapper_83/HI la_data_out[127] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_72 user_project_wrapper_72/VGND VSUBS user_project_wrapper_72/VPB
-+ user_project_wrapper_72/VPWR user_project_wrapper_72/HI la_data_out[117] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_61 user_project_wrapper_61/VGND VSUBS user_project_wrapper_61/VPB
-+ user_project_wrapper_61/VPWR user_project_wrapper_61/HI la_data_out[107] sky130_fd_sc_hd__conb_1
+Xoutput9 output9/A output9/VGND VSUBS output9/VPB output9/VPWR io_out[18] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_94 user_project_wrapper_94/VGND VSUBS user_project_wrapper_94/VPB
-+ user_project_wrapper_94/VPWR user_project_wrapper_94/HI la_data_out[21] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_50 user_project_wrapper_50/VGND VSUBS user_project_wrapper_50/VPB
-+ user_project_wrapper_50/VPWR user_project_wrapper_50/HI io_out[7] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_73 user_project_wrapper_73/VGND VSUBS user_project_wrapper_73/VPB
-+ user_project_wrapper_73/VPWR user_project_wrapper_73/HI la_data_out[118] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_94/VPWR user_project_wrapper_94/HI la_data_out[109] sky130_fd_sc_hd__conb_1
+Xoutput44 output44/A output44/VGND VSUBS output44/VPB output44/VPWR io_oeb[37] sky130_fd_sc_hd__buf_4
+Xoutput33 output41/A output33/VGND VSUBS output33/VPB output33/VPWR io_oeb[27] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_61 user_project_wrapper_61/VGND VSUBS user_project_wrapper_61/VPB
++ user_project_wrapper_61/VPWR user_project_wrapper_61/HI io_out[1] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_83 user_project_wrapper_83/VGND VSUBS user_project_wrapper_83/VPB
++ user_project_wrapper_83/VPWR user_project_wrapper_83/HI io_out[9] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_72 user_project_wrapper_72/VGND VSUBS user_project_wrapper_72/VPB
++ user_project_wrapper_72/VPWR user_project_wrapper_72/HI io_out[33] sky130_fd_sc_hd__conb_1
+Xoutput23 output28/A output23/VGND VSUBS output23/VPB output23/VPWR io_oeb[18] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_62 user_project_wrapper_62/VGND VSUBS user_project_wrapper_62/VPB
-+ user_project_wrapper_62/VPWR user_project_wrapper_62/HI la_data_out[108] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_95 user_project_wrapper_95/VGND VSUBS user_project_wrapper_95/VPB
-+ user_project_wrapper_95/VPWR user_project_wrapper_95/HI la_data_out[22] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_51 user_project_wrapper_51/VGND VSUBS user_project_wrapper_51/VPB
-+ user_project_wrapper_51/VPWR user_project_wrapper_51/HI io_out[8] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_62/VPWR user_project_wrapper_62/HI io_out[21] sky130_fd_sc_hd__conb_1
+Xoutput34 output41/A output34/VGND VSUBS output34/VPB output34/VPWR io_oeb[28] sky130_fd_sc_hd__buf_4
 Xoutput12 output12/A output12/VGND VSUBS output12/VPB output12/VPWR io_out[10] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_40 user_project_wrapper_40/VGND VSUBS user_project_wrapper_40/VPB
-+ user_project_wrapper_40/VPWR user_project_wrapper_40/HI io_out[32] sky130_fd_sc_hd__conb_1
+Xoutput45 output45/A output45/VGND VSUBS output45/VPB output45/VPWR io_oeb[3] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_73 user_project_wrapper_73/VGND VSUBS user_project_wrapper_73/VPB
++ user_project_wrapper_73/VPWR user_project_wrapper_73/HI io_out[34] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_84 user_project_wrapper_84/VGND VSUBS user_project_wrapper_84/VPB
-+ user_project_wrapper_84/VPWR user_project_wrapper_84/HI la_data_out[12] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_84/VPWR user_project_wrapper_84/HI la_data_out[0] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_95 user_project_wrapper_95/VGND VSUBS user_project_wrapper_95/VPB
++ user_project_wrapper_95/VPWR user_project_wrapper_95/HI la_data_out[10] sky130_fd_sc_hd__conb_1
+Xoutput24 output28/A output24/VGND VSUBS output24/VPB output24/VPWR io_oeb[19] sky130_fd_sc_hd__buf_4
 Xoutput13 output13/A output13/VGND VSUBS output13/VPB output13/VPWR io_out[20] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_74 user_project_wrapper_74/VGND VSUBS user_project_wrapper_74/VPB
-+ user_project_wrapper_74/VPWR user_project_wrapper_74/HI la_data_out[119] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_63 user_project_wrapper_63/VGND VSUBS user_project_wrapper_63/VPB
-+ user_project_wrapper_63/VPWR user_project_wrapper_63/HI la_data_out[109] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_96 user_project_wrapper_96/VGND VSUBS user_project_wrapper_96/VPB
-+ user_project_wrapper_96/VPWR user_project_wrapper_96/HI la_data_out[23] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_30 user_project_wrapper_30/VGND VSUBS user_project_wrapper_30/VPB
-+ user_project_wrapper_30/VPWR user_project_wrapper_30/HI io_out[1] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_52 user_project_wrapper_52/VGND VSUBS user_project_wrapper_52/VPB
-+ user_project_wrapper_52/VPWR user_project_wrapper_52/HI io_out[9] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_41 user_project_wrapper_41/VGND VSUBS user_project_wrapper_41/VPB
-+ user_project_wrapper_41/VPWR user_project_wrapper_41/HI io_out[33] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_96/VPWR user_project_wrapper_96/HI la_data_out[110] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_85 user_project_wrapper_85/VGND VSUBS user_project_wrapper_85/VPB
-+ user_project_wrapper_85/VPWR user_project_wrapper_85/HI la_data_out[13] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_85/VPWR user_project_wrapper_85/HI la_data_out[100] sky130_fd_sc_hd__conb_1
+Xoutput35 output41/A output35/VGND VSUBS output35/VPB output35/VPWR io_oeb[29] sky130_fd_sc_hd__buf_4
+Xoutput46 output51/A output46/VGND VSUBS output46/VPB output46/VPWR io_oeb[4] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_63 user_project_wrapper_63/VGND VSUBS user_project_wrapper_63/VPB
++ user_project_wrapper_63/VPWR user_project_wrapper_63/HI io_out[25] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_74 user_project_wrapper_74/VGND VSUBS user_project_wrapper_74/VPB
++ user_project_wrapper_74/VPWR user_project_wrapper_74/HI io_out[35] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_240 user_project_wrapper_240/VGND VSUBS user_project_wrapper_240/VPB
-+ user_project_wrapper_240/VPWR io_oeb[8] user_project_wrapper_240/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_20 user_project_wrapper_20/VGND VSUBS user_project_wrapper_20/VPB
-+ user_project_wrapper_20/VPWR user_project_wrapper_20/HI io_oeb[16] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_31 user_project_wrapper_31/VGND VSUBS user_project_wrapper_31/VPB
-+ user_project_wrapper_31/VPWR user_project_wrapper_31/HI io_out[21] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_240/VPWR user_project_wrapper_240/HI wbs_dat_o[31] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_97 user_project_wrapper_97/VGND VSUBS user_project_wrapper_97/VPB
-+ user_project_wrapper_97/VPWR user_project_wrapper_97/HI la_data_out[24] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_42 user_project_wrapper_42/VGND VSUBS user_project_wrapper_42/VPB
-+ user_project_wrapper_42/VPWR user_project_wrapper_42/HI io_out[34] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_53 user_project_wrapper_53/VGND VSUBS user_project_wrapper_53/VPB
-+ user_project_wrapper_53/VPWR user_project_wrapper_53/HI la_data_out[0] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_64 user_project_wrapper_64/VGND VSUBS user_project_wrapper_64/VPB
-+ user_project_wrapper_64/VPWR user_project_wrapper_64/HI la_data_out[10] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_75 user_project_wrapper_75/VGND VSUBS user_project_wrapper_75/VPB
-+ user_project_wrapper_75/VPWR user_project_wrapper_75/HI la_data_out[11] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_97/VPWR user_project_wrapper_97/HI la_data_out[111] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_86 user_project_wrapper_86/VGND VSUBS user_project_wrapper_86/VPB
-+ user_project_wrapper_86/VPWR user_project_wrapper_86/HI la_data_out[14] sky130_fd_sc_hd__conb_1
-Xoutput14 output14/A output14/VGND VSUBS output14/VPB output14/VPWR io_out[24] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_230 user_project_wrapper_230/VGND VSUBS user_project_wrapper_230/VPB
-+ user_project_wrapper_230/VPWR io_oeb[33] user_project_wrapper_230/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_86/VPWR user_project_wrapper_86/HI la_data_out[101] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_64 user_project_wrapper_64/VGND VSUBS user_project_wrapper_64/VPB
++ user_project_wrapper_64/VPWR user_project_wrapper_64/HI io_out[26] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_75 user_project_wrapper_75/VGND VSUBS user_project_wrapper_75/VPB
++ user_project_wrapper_75/VPWR user_project_wrapper_75/HI io_out[36] sky130_fd_sc_hd__conb_1
+Xoutput14 output45/A output14/VGND VSUBS output14/VPB output14/VPWR io_oeb[0] sky130_fd_sc_hd__buf_4
+Xoutput36 output45/A output36/VGND VSUBS output36/VPB output36/VPWR io_oeb[2] sky130_fd_sc_hd__buf_4
+Xoutput25 output45/A output25/VGND VSUBS output25/VPB output25/VPWR io_oeb[1] sky130_fd_sc_hd__buf_4
+Xoutput47 output51/A output47/VGND VSUBS output47/VPB output47/VPWR io_oeb[5] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_241 user_project_wrapper_241/VGND VSUBS user_project_wrapper_241/VPB
-+ user_project_wrapper_241/VPWR io_oeb[9] user_project_wrapper_241/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_21 user_project_wrapper_21/VGND VSUBS user_project_wrapper_21/VPB
-+ user_project_wrapper_21/VPWR user_project_wrapper_21/HI io_oeb[17] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_76 user_project_wrapper_76/VGND VSUBS user_project_wrapper_76/VPB
-+ user_project_wrapper_76/VPWR user_project_wrapper_76/HI la_data_out[120] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_65 user_project_wrapper_65/VGND VSUBS user_project_wrapper_65/VPB
-+ user_project_wrapper_65/VPWR user_project_wrapper_65/HI la_data_out[110] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_54 user_project_wrapper_54/VGND VSUBS user_project_wrapper_54/VPB
-+ user_project_wrapper_54/VPWR user_project_wrapper_54/HI la_data_out[100] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_241/VPWR user_project_wrapper_241/HI wbs_dat_o[3] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_230 user_project_wrapper_230/VGND VSUBS user_project_wrapper_230/VPB
++ user_project_wrapper_230/VPWR user_project_wrapper_230/HI wbs_dat_o[22] sky130_fd_sc_hd__conb_1
+Xoutput26 output28/A output26/VGND VSUBS output26/VPB output26/VPWR io_oeb[20] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_98 user_project_wrapper_98/VGND VSUBS user_project_wrapper_98/VPB
-+ user_project_wrapper_98/VPWR user_project_wrapper_98/HI la_data_out[25] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_32 user_project_wrapper_32/VGND VSUBS user_project_wrapper_32/VPB
-+ user_project_wrapper_32/VPWR user_project_wrapper_32/HI io_out[25] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_43 user_project_wrapper_43/VGND VSUBS user_project_wrapper_43/VPB
-+ user_project_wrapper_43/VPWR user_project_wrapper_43/HI io_out[35] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_98/VPWR user_project_wrapper_98/HI la_data_out[112] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_87 user_project_wrapper_87/VGND VSUBS user_project_wrapper_87/VPB
-+ user_project_wrapper_87/VPWR user_project_wrapper_87/HI la_data_out[15] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_87/VPWR user_project_wrapper_87/HI la_data_out[102] sky130_fd_sc_hd__conb_1
+Xoutput37 output41/A output37/VGND VSUBS output37/VPB output37/VPWR io_oeb[30] sky130_fd_sc_hd__buf_4
+Xoutput15 output51/A output15/VGND VSUBS output15/VPB output15/VPWR io_oeb[10] sky130_fd_sc_hd__buf_4
+Xoutput48 output51/A output48/VGND VSUBS output48/VPB output48/VPWR io_oeb[6] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_65 user_project_wrapper_65/VGND VSUBS user_project_wrapper_65/VPB
++ user_project_wrapper_65/VPWR user_project_wrapper_65/HI io_out[27] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_76 user_project_wrapper_76/VGND VSUBS user_project_wrapper_76/VPB
++ user_project_wrapper_76/VPWR user_project_wrapper_76/HI io_out[37] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_242 user_project_wrapper_242/VGND VSUBS user_project_wrapper_242/VPB
++ user_project_wrapper_242/VPWR user_project_wrapper_242/HI wbs_dat_o[4] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_220 user_project_wrapper_220/VGND VSUBS user_project_wrapper_220/VPB
-+ user_project_wrapper_220/VPWR io_oeb[21] user_project_wrapper_220/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_220/VPWR user_project_wrapper_220/HI wbs_dat_o[13] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_231 user_project_wrapper_231/VGND VSUBS user_project_wrapper_231/VPB
-+ user_project_wrapper_231/VPWR io_oeb[34] user_project_wrapper_231/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_22 user_project_wrapper_22/VGND VSUBS user_project_wrapper_22/VPB
-+ user_project_wrapper_22/VPWR user_project_wrapper_22/HI io_oeb[18] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_77 user_project_wrapper_77/VGND VSUBS user_project_wrapper_77/VPB
-+ user_project_wrapper_77/VPWR user_project_wrapper_77/HI la_data_out[121] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_66 user_project_wrapper_66/VGND VSUBS user_project_wrapper_66/VPB
-+ user_project_wrapper_66/VPWR user_project_wrapper_66/HI la_data_out[111] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_55 user_project_wrapper_55/VGND VSUBS user_project_wrapper_55/VPB
-+ user_project_wrapper_55/VPWR user_project_wrapper_55/HI la_data_out[101] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_231/VPWR user_project_wrapper_231/HI wbs_dat_o[23] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_99 user_project_wrapper_99/VGND VSUBS user_project_wrapper_99/VPB
-+ user_project_wrapper_99/VPWR user_project_wrapper_99/HI la_data_out[26] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_33 user_project_wrapper_33/VGND VSUBS user_project_wrapper_33/VPB
-+ user_project_wrapper_33/VPWR user_project_wrapper_33/HI io_out[26] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_44 user_project_wrapper_44/VGND VSUBS user_project_wrapper_44/VPB
-+ user_project_wrapper_44/VPWR user_project_wrapper_44/HI io_out[36] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_99/VPWR user_project_wrapper_99/HI la_data_out[113] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_88 user_project_wrapper_88/VGND VSUBS user_project_wrapper_88/VPB
-+ user_project_wrapper_88/VPWR user_project_wrapper_88/HI la_data_out[16] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_232 user_project_wrapper_232/VGND VSUBS user_project_wrapper_232/VPB
-+ user_project_wrapper_232/VPWR io_oeb[35] user_project_wrapper_232/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_88/VPWR user_project_wrapper_88/HI la_data_out[103] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_77 user_project_wrapper_77/VGND VSUBS user_project_wrapper_77/VPB
++ user_project_wrapper_77/VPWR user_project_wrapper_77/HI io_out[3] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_66 user_project_wrapper_66/VGND VSUBS user_project_wrapper_66/VPB
++ user_project_wrapper_66/VPWR user_project_wrapper_66/HI io_out[28] sky130_fd_sc_hd__conb_1
+Xoutput27 output28/A output27/VGND VSUBS output27/VPB output27/VPWR io_oeb[21] sky130_fd_sc_hd__buf_4
+Xoutput38 output41/A output38/VGND VSUBS output38/VPB output38/VPWR io_oeb[31] sky130_fd_sc_hd__buf_4
+Xoutput16 output51/A output16/VGND VSUBS output16/VPB output16/VPWR io_oeb[11] sky130_fd_sc_hd__buf_4
+Xoutput49 output51/A output49/VGND VSUBS output49/VPB output49/VPWR io_oeb[7] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_210 user_project_wrapper_210/VGND VSUBS user_project_wrapper_210/VPB
-+ user_project_wrapper_210/VPWR user_project_wrapper_210/HI wbs_dat_o[3] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_210/VPWR user_project_wrapper_210/HI la_data_out[99] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_243 user_project_wrapper_243/VGND VSUBS user_project_wrapper_243/VPB
++ user_project_wrapper_243/VPWR user_project_wrapper_243/HI wbs_dat_o[5] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_221 user_project_wrapper_221/VGND VSUBS user_project_wrapper_221/VPB
-+ user_project_wrapper_221/VPWR io_oeb[25] user_project_wrapper_221/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_23 user_project_wrapper_23/VGND VSUBS user_project_wrapper_23/VPB
-+ user_project_wrapper_23/VPWR user_project_wrapper_23/HI io_oeb[19] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_78 user_project_wrapper_78/VGND VSUBS user_project_wrapper_78/VPB
-+ user_project_wrapper_78/VPWR user_project_wrapper_78/HI la_data_out[122] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_67 user_project_wrapper_67/VGND VSUBS user_project_wrapper_67/VPB
-+ user_project_wrapper_67/VPWR user_project_wrapper_67/HI la_data_out[112] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_56 user_project_wrapper_56/VGND VSUBS user_project_wrapper_56/VPB
-+ user_project_wrapper_56/VPWR user_project_wrapper_56/HI la_data_out[102] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_34 user_project_wrapper_34/VGND VSUBS user_project_wrapper_34/VPB
-+ user_project_wrapper_34/VPWR user_project_wrapper_34/HI io_out[27] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_45 user_project_wrapper_45/VGND VSUBS user_project_wrapper_45/VPB
-+ user_project_wrapper_45/VPWR user_project_wrapper_45/HI io_out[37] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_221/VPWR user_project_wrapper_221/HI wbs_dat_o[14] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_232 user_project_wrapper_232/VGND VSUBS user_project_wrapper_232/VPB
++ user_project_wrapper_232/VPWR user_project_wrapper_232/HI wbs_dat_o[24] sky130_fd_sc_hd__conb_1
+Xoutput28 output28/A output28/VGND VSUBS output28/VPB output28/VPWR io_oeb[22] sky130_fd_sc_hd__buf_4
+Xoutput17 wire58/X output17/VGND VSUBS output17/VPB output17/VPWR io_oeb[12] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_89 user_project_wrapper_89/VGND VSUBS user_project_wrapper_89/VPB
-+ user_project_wrapper_89/VPWR user_project_wrapper_89/HI la_data_out[17] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_233 user_project_wrapper_233/VGND VSUBS user_project_wrapper_233/VPB
-+ user_project_wrapper_233/VPWR io_oeb[36] user_project_wrapper_233/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_211 user_project_wrapper_211/VGND VSUBS user_project_wrapper_211/VPB
-+ user_project_wrapper_211/VPWR user_project_wrapper_211/HI wbs_dat_o[4] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_200 user_project_wrapper_200/VGND VSUBS user_project_wrapper_200/VPB
-+ user_project_wrapper_200/VPWR user_project_wrapper_200/HI wbs_dat_o[23] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_89/VPWR user_project_wrapper_89/HI la_data_out[104] sky130_fd_sc_hd__conb_1
+Xoutput39 output41/A output39/VGND VSUBS output39/VPB output39/VPWR io_oeb[32] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_78 user_project_wrapper_78/VGND VSUBS user_project_wrapper_78/VPB
++ user_project_wrapper_78/VPWR user_project_wrapper_78/HI io_out[4] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_67 user_project_wrapper_67/VGND VSUBS user_project_wrapper_67/VPB
++ user_project_wrapper_67/VPWR user_project_wrapper_67/HI io_out[29] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_244 user_project_wrapper_244/VGND VSUBS user_project_wrapper_244/VPB
++ user_project_wrapper_244/VPWR user_project_wrapper_244/HI wbs_dat_o[6] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_222 user_project_wrapper_222/VGND VSUBS user_project_wrapper_222/VPB
-+ user_project_wrapper_222/VPWR io_oeb[26] user_project_wrapper_222/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_24 user_project_wrapper_24/VGND VSUBS user_project_wrapper_24/VPB
-+ user_project_wrapper_24/VPWR user_project_wrapper_24/HI io_oeb[20] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_79 user_project_wrapper_79/VGND VSUBS user_project_wrapper_79/VPB
-+ user_project_wrapper_79/VPWR user_project_wrapper_79/HI la_data_out[123] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_222/VPWR user_project_wrapper_222/HI wbs_dat_o[15] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_233 user_project_wrapper_233/VGND VSUBS user_project_wrapper_233/VPB
++ user_project_wrapper_233/VPWR user_project_wrapper_233/HI wbs_dat_o[25] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_200 user_project_wrapper_200/VGND VSUBS user_project_wrapper_200/VPB
++ user_project_wrapper_200/VPWR user_project_wrapper_200/HI la_data_out[8] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_211 user_project_wrapper_211/VGND VSUBS user_project_wrapper_211/VPB
++ user_project_wrapper_211/VPWR user_project_wrapper_211/HI la_data_out[9] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_68 user_project_wrapper_68/VGND VSUBS user_project_wrapper_68/VPB
-+ user_project_wrapper_68/VPWR user_project_wrapper_68/HI la_data_out[113] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_57 user_project_wrapper_57/VGND VSUBS user_project_wrapper_57/VPB
-+ user_project_wrapper_57/VPWR user_project_wrapper_57/HI la_data_out[103] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_46 user_project_wrapper_46/VGND VSUBS user_project_wrapper_46/VPB
-+ user_project_wrapper_46/VPWR user_project_wrapper_46/HI io_out[3] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_35 user_project_wrapper_35/VGND VSUBS user_project_wrapper_35/VPB
-+ user_project_wrapper_35/VPWR user_project_wrapper_35/HI io_out[28] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_234 user_project_wrapper_234/VGND VSUBS user_project_wrapper_234/VPB
-+ user_project_wrapper_234/VPWR io_oeb[37] user_project_wrapper_234/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_223 user_project_wrapper_223/VGND VSUBS user_project_wrapper_223/VPB
-+ user_project_wrapper_223/VPWR io_oeb[27] user_project_wrapper_223/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_212 user_project_wrapper_212/VGND VSUBS user_project_wrapper_212/VPB
-+ user_project_wrapper_212/VPWR user_project_wrapper_212/HI wbs_dat_o[5] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_68/VPWR user_project_wrapper_68/HI io_out[2] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_79 user_project_wrapper_79/VGND VSUBS user_project_wrapper_79/VPB
++ user_project_wrapper_79/VPWR user_project_wrapper_79/HI io_out[5] sky130_fd_sc_hd__conb_1
+Xoutput29 output44/A output29/VGND VSUBS output29/VPB output29/VPWR io_oeb[23] sky130_fd_sc_hd__buf_4
+Xoutput18 output28/A output18/VGND VSUBS output18/VPB output18/VPWR io_oeb[13] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_201 user_project_wrapper_201/VGND VSUBS user_project_wrapper_201/VPB
-+ user_project_wrapper_201/VPWR user_project_wrapper_201/HI wbs_dat_o[24] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_25 user_project_wrapper_25/VGND VSUBS user_project_wrapper_25/VPB
-+ user_project_wrapper_25/VPWR user_project_wrapper_25/HI io_oeb[22] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_201/VPWR user_project_wrapper_201/HI la_data_out[90] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_245 user_project_wrapper_245/VGND VSUBS user_project_wrapper_245/VPB
++ user_project_wrapper_245/VPWR user_project_wrapper_245/HI wbs_dat_o[7] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_223 user_project_wrapper_223/VGND VSUBS user_project_wrapper_223/VPB
++ user_project_wrapper_223/VPWR user_project_wrapper_223/HI wbs_dat_o[16] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_212 user_project_wrapper_212/VGND VSUBS user_project_wrapper_212/VPB
++ user_project_wrapper_212/VPWR user_project_wrapper_212/HI user_irq[0] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_234 user_project_wrapper_234/VGND VSUBS user_project_wrapper_234/VPB
++ user_project_wrapper_234/VPWR user_project_wrapper_234/HI wbs_dat_o[26] sky130_fd_sc_hd__conb_1
+Xfanout53 output45/A fanout53/VGND VSUBS output46/VPB output46/VPWR output51/A sky130_fd_sc_hd__buf_12
+Xoutput19 output28/A output19/VGND VSUBS output19/VPB output19/VPWR io_oeb[14] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_69 user_project_wrapper_69/VGND VSUBS user_project_wrapper_69/VPB
-+ user_project_wrapper_69/VPWR user_project_wrapper_69/HI la_data_out[114] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_58 user_project_wrapper_58/VGND VSUBS user_project_wrapper_58/VPB
-+ user_project_wrapper_58/VPWR user_project_wrapper_58/HI la_data_out[104] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_47 user_project_wrapper_47/VGND VSUBS user_project_wrapper_47/VPB
-+ user_project_wrapper_47/VPWR user_project_wrapper_47/HI io_out[4] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_36 user_project_wrapper_36/VGND VSUBS user_project_wrapper_36/VPB
-+ user_project_wrapper_36/VPWR user_project_wrapper_36/HI io_out[29] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_224 user_project_wrapper_224/VGND VSUBS user_project_wrapper_224/VPB
-+ user_project_wrapper_224/VPWR io_oeb[28] user_project_wrapper_224/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_213 user_project_wrapper_213/VGND VSUBS user_project_wrapper_213/VPB
-+ user_project_wrapper_213/VPWR user_project_wrapper_213/HI wbs_dat_o[6] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_235 user_project_wrapper_235/VGND VSUBS user_project_wrapper_235/VPB
-+ user_project_wrapper_235/VPWR io_oeb[3] user_project_wrapper_235/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_69/VPWR user_project_wrapper_69/HI io_out[30] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_202 user_project_wrapper_202/VGND VSUBS user_project_wrapper_202/VPB
-+ user_project_wrapper_202/VPWR user_project_wrapper_202/HI wbs_dat_o[25] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_26 user_project_wrapper_26/VGND VSUBS user_project_wrapper_26/VPB
-+ user_project_wrapper_26/VPWR user_project_wrapper_26/HI io_oeb[23] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_202/VPWR user_project_wrapper_202/HI la_data_out[91] sky130_fd_sc_hd__conb_1
+Xfanout54 output45/A output33/VGND VSUBS fanout54/VPB fanout54/VPWR output41/A sky130_fd_sc_hd__clkbuf_4
+Xuser_project_wrapper_246 user_project_wrapper_246/VGND VSUBS user_project_wrapper_246/VPB
++ user_project_wrapper_246/VPWR user_project_wrapper_246/HI wbs_dat_o[8] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_224 user_project_wrapper_224/VGND VSUBS user_project_wrapper_224/VPB
++ user_project_wrapper_224/VPWR user_project_wrapper_224/HI wbs_dat_o[17] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_213 user_project_wrapper_213/VGND VSUBS user_project_wrapper_213/VPB
++ user_project_wrapper_213/VPWR user_project_wrapper_213/HI user_irq[1] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_235 user_project_wrapper_235/VGND VSUBS user_project_wrapper_235/VPB
++ user_project_wrapper_235/VPWR user_project_wrapper_235/HI wbs_dat_o[27] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_59 user_project_wrapper_59/VGND VSUBS user_project_wrapper_59/VPB
-+ user_project_wrapper_59/VPWR user_project_wrapper_59/HI la_data_out[105] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_37 user_project_wrapper_37/VGND VSUBS user_project_wrapper_37/VPB
-+ user_project_wrapper_37/VPWR user_project_wrapper_37/HI io_out[2] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_48 user_project_wrapper_48/VGND VSUBS user_project_wrapper_48/VPB
-+ user_project_wrapper_48/VPWR user_project_wrapper_48/HI io_out[5] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_15 user_project_wrapper_15/VGND VSUBS user_project_wrapper_15/VPB
-+ user_project_wrapper_15/VPWR user_project_wrapper_15/HI io_oeb[10] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_225 user_project_wrapper_225/VGND VSUBS user_project_wrapper_225/VPB
-+ user_project_wrapper_225/VPWR io_oeb[29] user_project_wrapper_225/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_214 user_project_wrapper_214/VGND VSUBS user_project_wrapper_214/VPB
-+ user_project_wrapper_214/VPWR user_project_wrapper_214/HI wbs_dat_o[7] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_236 user_project_wrapper_236/VGND VSUBS user_project_wrapper_236/VPB
-+ user_project_wrapper_236/VPWR io_oeb[4] user_project_wrapper_236/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_59/VPWR user_project_wrapper_59/HI io_out[0] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_203 user_project_wrapper_203/VGND VSUBS user_project_wrapper_203/VPB
-+ user_project_wrapper_203/VPWR user_project_wrapper_203/HI wbs_dat_o[26] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_27 user_project_wrapper_27/VGND VSUBS user_project_wrapper_27/VPB
-+ user_project_wrapper_27/VPWR user_project_wrapper_27/HI io_oeb[24] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_16 user_project_wrapper_16/VGND VSUBS user_project_wrapper_16/VPB
-+ user_project_wrapper_16/VPWR user_project_wrapper_16/HI io_oeb[12] sky130_fd_sc_hd__conb_1
-Xinput1 wb_rst_i input1/VGND VSUBS input1/VPB input1/VPWR input1/X sky130_fd_sc_hd__buf_12
-Xuser_project_wrapper_49 user_project_wrapper_49/VGND VSUBS user_project_wrapper_49/VPB
-+ user_project_wrapper_49/VPWR user_project_wrapper_49/HI io_out[6] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_38 user_project_wrapper_38/VGND VSUBS user_project_wrapper_38/VPB
-+ user_project_wrapper_38/VPWR user_project_wrapper_38/HI io_out[30] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_215 user_project_wrapper_215/VGND VSUBS user_project_wrapper_215/VPB
-+ user_project_wrapper_215/VPWR user_project_wrapper_215/HI wbs_dat_o[8] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_226 user_project_wrapper_226/VGND VSUBS user_project_wrapper_226/VPB
-+ user_project_wrapper_226/VPWR io_oeb[2] user_project_wrapper_226/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_237 user_project_wrapper_237/VGND VSUBS user_project_wrapper_237/VPB
-+ user_project_wrapper_237/VPWR io_oeb[5] user_project_wrapper_237/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_203/VPWR user_project_wrapper_203/HI la_data_out[92] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_247 user_project_wrapper_247/VGND VSUBS user_project_wrapper_247/VPB
++ user_project_wrapper_247/VPWR user_project_wrapper_247/HI wbs_dat_o[9] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_225 user_project_wrapper_225/VGND VSUBS user_project_wrapper_225/VPB
++ user_project_wrapper_225/VPWR user_project_wrapper_225/HI wbs_dat_o[18] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_214 user_project_wrapper_214/VGND VSUBS user_project_wrapper_214/VPB
++ user_project_wrapper_214/VPWR user_project_wrapper_214/HI user_irq[2] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_236 user_project_wrapper_236/VGND VSUBS user_project_wrapper_236/VPB
++ user_project_wrapper_236/VPWR user_project_wrapper_236/HI wbs_dat_o[28] sky130_fd_sc_hd__conb_1
+Xfanout55 wire58/A fanout55/VGND VSUBS output14/VPB output14/VPWR output45/A sky130_fd_sc_hd__buf_12
+Xinput1 wb_rst_i input1/VGND VSUBS input1/VPB input1/VPWR wire58/A sky130_fd_sc_hd__buf_12
+Xfanout56 output44/A output18/VGND VSUBS output18/VPB output18/VPWR output28/A sky130_fd_sc_hd__buf_6
 Xuser_project_wrapper_204 user_project_wrapper_204/VGND VSUBS user_project_wrapper_204/VPB
-+ user_project_wrapper_204/VPWR user_project_wrapper_204/HI wbs_dat_o[27] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_17 user_project_wrapper_17/VGND VSUBS user_project_wrapper_17/VPB
-+ user_project_wrapper_17/VPWR user_project_wrapper_17/HI io_oeb[13] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_28 user_project_wrapper_28/VGND VSUBS user_project_wrapper_28/VPB
-+ user_project_wrapper_28/VPWR user_project_wrapper_28/HI io_out[0] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_39 user_project_wrapper_39/VGND VSUBS user_project_wrapper_39/VPB
-+ user_project_wrapper_39/VPWR user_project_wrapper_39/HI io_out[31] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_227 user_project_wrapper_227/VGND VSUBS user_project_wrapper_227/VPB
-+ user_project_wrapper_227/VPWR io_oeb[30] user_project_wrapper_227/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_216 user_project_wrapper_216/VGND VSUBS user_project_wrapper_216/VPB
-+ user_project_wrapper_216/VPWR user_project_wrapper_216/HI wbs_dat_o[9] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_238 user_project_wrapper_238/VGND VSUBS user_project_wrapper_238/VPB
-+ user_project_wrapper_238/VPWR io_oeb[6] user_project_wrapper_238/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_204/VPWR user_project_wrapper_204/HI la_data_out[93] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_215 user_project_wrapper_215/VGND VSUBS user_project_wrapper_215/VPB
++ user_project_wrapper_215/VPWR user_project_wrapper_215/HI wbs_ack_o sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_226 user_project_wrapper_226/VGND VSUBS user_project_wrapper_226/VPB
++ user_project_wrapper_226/VPWR user_project_wrapper_226/HI wbs_dat_o[19] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_237 user_project_wrapper_237/VGND VSUBS user_project_wrapper_237/VPB
++ user_project_wrapper_237/VPWR user_project_wrapper_237/HI wbs_dat_o[29] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_205 user_project_wrapper_205/VGND VSUBS user_project_wrapper_205/VPB
-+ user_project_wrapper_205/VPWR user_project_wrapper_205/HI wbs_dat_o[28] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_18 user_project_wrapper_18/VGND VSUBS user_project_wrapper_18/VPB
-+ user_project_wrapper_18/VPWR user_project_wrapper_18/HI io_oeb[14] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_29 user_project_wrapper_29/VGND VSUBS user_project_wrapper_29/VPB
-+ user_project_wrapper_29/VPWR user_project_wrapper_29/HI io_out[11] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_228 user_project_wrapper_228/VGND VSUBS user_project_wrapper_228/VPB
-+ user_project_wrapper_228/VPWR io_oeb[31] user_project_wrapper_228/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_217 user_project_wrapper_217/VGND VSUBS user_project_wrapper_217/VPB
-+ user_project_wrapper_217/VPWR io_oeb[0] user_project_wrapper_217/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_239 user_project_wrapper_239/VGND VSUBS user_project_wrapper_239/VPB
-+ user_project_wrapper_239/VPWR io_oeb[7] user_project_wrapper_239/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_205/VPWR user_project_wrapper_205/HI la_data_out[94] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_238 user_project_wrapper_238/VGND VSUBS user_project_wrapper_238/VPB
++ user_project_wrapper_238/VPWR user_project_wrapper_238/HI wbs_dat_o[2] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_227 user_project_wrapper_227/VGND VSUBS user_project_wrapper_227/VPB
++ user_project_wrapper_227/VPWR user_project_wrapper_227/HI wbs_dat_o[1] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_216 user_project_wrapper_216/VGND VSUBS user_project_wrapper_216/VPB
++ user_project_wrapper_216/VPWR user_project_wrapper_216/HI wbs_dat_o[0] sky130_fd_sc_hd__conb_1
+Xfanout57 wire58/X output42/VGND VSUBS fanout57/VPB fanout57/VPWR output44/A sky130_fd_sc_hd__buf_12
 Xuser_project_wrapper_206 user_project_wrapper_206/VGND VSUBS user_project_wrapper_206/VPB
-+ user_project_wrapper_206/VPWR user_project_wrapper_206/HI wbs_dat_o[29] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_19 user_project_wrapper_19/VGND VSUBS user_project_wrapper_19/VPB
-+ user_project_wrapper_19/VPWR user_project_wrapper_19/HI io_oeb[15] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_229 user_project_wrapper_229/VGND VSUBS user_project_wrapper_229/VPB
-+ user_project_wrapper_229/VPWR io_oeb[32] user_project_wrapper_229/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_206/VPWR user_project_wrapper_206/HI la_data_out[95] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_217 user_project_wrapper_217/VGND VSUBS user_project_wrapper_217/VPB
++ user_project_wrapper_217/VPWR user_project_wrapper_217/HI wbs_dat_o[10] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_228 user_project_wrapper_228/VGND VSUBS user_project_wrapper_228/VPB
++ user_project_wrapper_228/VPWR user_project_wrapper_228/HI wbs_dat_o[20] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_239 user_project_wrapper_239/VGND VSUBS user_project_wrapper_239/VPB
++ user_project_wrapper_239/VPWR user_project_wrapper_239/HI wbs_dat_o[30] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_207 user_project_wrapper_207/VGND VSUBS user_project_wrapper_207/VPB
-+ user_project_wrapper_207/VPWR user_project_wrapper_207/HI wbs_dat_o[2] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_207/VPWR user_project_wrapper_207/HI la_data_out[96] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_218 user_project_wrapper_218/VGND VSUBS user_project_wrapper_218/VPB
-+ user_project_wrapper_218/VPWR io_oeb[11] user_project_wrapper_218/LO sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_219 user_project_wrapper_219/VGND VSUBS user_project_wrapper_219/VPB
-+ user_project_wrapper_219/VPWR io_oeb[1] user_project_wrapper_219/LO sky130_fd_sc_hd__conb_1
++ user_project_wrapper_218/VPWR user_project_wrapper_218/HI wbs_dat_o[11] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_229 user_project_wrapper_229/VGND VSUBS user_project_wrapper_229/VPB
++ user_project_wrapper_229/VPWR user_project_wrapper_229/HI wbs_dat_o[21] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_208 user_project_wrapper_208/VGND VSUBS user_project_wrapper_208/VPB
-+ user_project_wrapper_208/VPWR user_project_wrapper_208/HI wbs_dat_o[30] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_208/VPWR user_project_wrapper_208/HI la_data_out[97] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_219 user_project_wrapper_219/VGND VSUBS user_project_wrapper_219/VPB
++ user_project_wrapper_219/VPWR user_project_wrapper_219/HI wbs_dat_o[12] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_209 user_project_wrapper_209/VGND VSUBS user_project_wrapper_209/VPB
-+ user_project_wrapper_209/VPWR user_project_wrapper_209/HI wbs_dat_o[31] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_209/VPWR user_project_wrapper_209/HI la_data_out[98] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_190 user_project_wrapper_190/VGND VSUBS user_project_wrapper_190/VPB
-+ user_project_wrapper_190/VPWR user_project_wrapper_190/HI wbs_dat_o[14] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_190/VPWR user_project_wrapper_190/HI la_data_out[80] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_191 user_project_wrapper_191/VGND VSUBS user_project_wrapper_191/VPB
-+ user_project_wrapper_191/VPWR user_project_wrapper_191/HI wbs_dat_o[15] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_191/VPWR user_project_wrapper_191/HI la_data_out[81] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_180 user_project_wrapper_180/VGND VSUBS user_project_wrapper_180/VPB
-+ user_project_wrapper_180/VPWR user_project_wrapper_180/HI la_data_out[9] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_170 user_project_wrapper_170/VGND VSUBS user_project_wrapper_170/VPB
-+ user_project_wrapper_170/VPWR user_project_wrapper_170/HI la_data_out[90] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_180/VPWR user_project_wrapper_180/HI la_data_out[71] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_192 user_project_wrapper_192/VGND VSUBS user_project_wrapper_192/VPB
-+ user_project_wrapper_192/VPWR user_project_wrapper_192/HI wbs_dat_o[16] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_192/VPWR user_project_wrapper_192/HI la_data_out[82] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_181 user_project_wrapper_181/VGND VSUBS user_project_wrapper_181/VPB
-+ user_project_wrapper_181/VPWR user_project_wrapper_181/HI user_irq[0] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_171 user_project_wrapper_171/VGND VSUBS user_project_wrapper_171/VPB
-+ user_project_wrapper_171/VPWR user_project_wrapper_171/HI la_data_out[91] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_160 user_project_wrapper_160/VGND VSUBS user_project_wrapper_160/VPB
-+ user_project_wrapper_160/VPWR user_project_wrapper_160/HI la_data_out[81] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_181/VPWR user_project_wrapper_181/HI la_data_out[72] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_170 user_project_wrapper_170/VGND VSUBS user_project_wrapper_170/VPB
++ user_project_wrapper_170/VPWR user_project_wrapper_170/HI la_data_out[62] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_193 user_project_wrapper_193/VGND VSUBS user_project_wrapper_193/VPB
-+ user_project_wrapper_193/VPWR user_project_wrapper_193/HI wbs_dat_o[17] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_193/VPWR user_project_wrapper_193/HI la_data_out[83] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_182 user_project_wrapper_182/VGND VSUBS user_project_wrapper_182/VPB
-+ user_project_wrapper_182/VPWR user_project_wrapper_182/HI user_irq[1] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_172 user_project_wrapper_172/VGND VSUBS user_project_wrapper_172/VPB
-+ user_project_wrapper_172/VPWR user_project_wrapper_172/HI la_data_out[92] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_161 user_project_wrapper_161/VGND VSUBS user_project_wrapper_161/VPB
-+ user_project_wrapper_161/VPWR user_project_wrapper_161/HI la_data_out[82] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_150 user_project_wrapper_150/VGND VSUBS user_project_wrapper_150/VPB
-+ user_project_wrapper_150/VPWR user_project_wrapper_150/HI la_data_out[72] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_182/VPWR user_project_wrapper_182/HI la_data_out[73] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_171 user_project_wrapper_171/VGND VSUBS user_project_wrapper_171/VPB
++ user_project_wrapper_171/VPWR user_project_wrapper_171/HI la_data_out[63] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_160 user_project_wrapper_160/VGND VSUBS user_project_wrapper_160/VPB
++ user_project_wrapper_160/VPWR user_project_wrapper_160/HI la_data_out[53] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_194 user_project_wrapper_194/VGND VSUBS user_project_wrapper_194/VPB
-+ user_project_wrapper_194/VPWR user_project_wrapper_194/HI wbs_dat_o[18] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_194/VPWR user_project_wrapper_194/HI la_data_out[84] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_183 user_project_wrapper_183/VGND VSUBS user_project_wrapper_183/VPB
-+ user_project_wrapper_183/VPWR user_project_wrapper_183/HI user_irq[2] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_173 user_project_wrapper_173/VGND VSUBS user_project_wrapper_173/VPB
-+ user_project_wrapper_173/VPWR user_project_wrapper_173/HI la_data_out[93] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_162 user_project_wrapper_162/VGND VSUBS user_project_wrapper_162/VPB
-+ user_project_wrapper_162/VPWR user_project_wrapper_162/HI la_data_out[83] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_151 user_project_wrapper_151/VGND VSUBS user_project_wrapper_151/VPB
-+ user_project_wrapper_151/VPWR user_project_wrapper_151/HI la_data_out[73] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_140 user_project_wrapper_140/VGND VSUBS user_project_wrapper_140/VPB
-+ user_project_wrapper_140/VPWR user_project_wrapper_140/HI la_data_out[63] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_184 user_project_wrapper_184/VGND VSUBS user_project_wrapper_184/VPB
-+ user_project_wrapper_184/VPWR user_project_wrapper_184/HI wbs_ack_o sky130_fd_sc_hd__conb_1
++ user_project_wrapper_183/VPWR user_project_wrapper_183/HI la_data_out[74] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_172 user_project_wrapper_172/VGND VSUBS user_project_wrapper_172/VPB
++ user_project_wrapper_172/VPWR user_project_wrapper_172/HI la_data_out[64] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_161 user_project_wrapper_161/VGND VSUBS user_project_wrapper_161/VPB
++ user_project_wrapper_161/VPWR user_project_wrapper_161/HI la_data_out[54] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_150 user_project_wrapper_150/VGND VSUBS user_project_wrapper_150/VPB
++ user_project_wrapper_150/VPWR user_project_wrapper_150/HI la_data_out[44] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_195 user_project_wrapper_195/VGND VSUBS user_project_wrapper_195/VPB
-+ user_project_wrapper_195/VPWR user_project_wrapper_195/HI wbs_dat_o[19] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_174 user_project_wrapper_174/VGND VSUBS user_project_wrapper_174/VPB
-+ user_project_wrapper_174/VPWR user_project_wrapper_174/HI la_data_out[94] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_163 user_project_wrapper_163/VGND VSUBS user_project_wrapper_163/VPB
-+ user_project_wrapper_163/VPWR user_project_wrapper_163/HI la_data_out[84] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_152 user_project_wrapper_152/VGND VSUBS user_project_wrapper_152/VPB
-+ user_project_wrapper_152/VPWR user_project_wrapper_152/HI la_data_out[74] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_141 user_project_wrapper_141/VGND VSUBS user_project_wrapper_141/VPB
-+ user_project_wrapper_141/VPWR user_project_wrapper_141/HI la_data_out[64] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_130 user_project_wrapper_130/VGND VSUBS user_project_wrapper_130/VPB
-+ user_project_wrapper_130/VPWR user_project_wrapper_130/HI la_data_out[54] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_195/VPWR user_project_wrapper_195/HI la_data_out[85] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_184 user_project_wrapper_184/VGND VSUBS user_project_wrapper_184/VPB
++ user_project_wrapper_184/VPWR user_project_wrapper_184/HI la_data_out[75] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_173 user_project_wrapper_173/VGND VSUBS user_project_wrapper_173/VPB
++ user_project_wrapper_173/VPWR user_project_wrapper_173/HI la_data_out[65] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_162 user_project_wrapper_162/VGND VSUBS user_project_wrapper_162/VPB
++ user_project_wrapper_162/VPWR user_project_wrapper_162/HI la_data_out[55] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_151 user_project_wrapper_151/VGND VSUBS user_project_wrapper_151/VPB
++ user_project_wrapper_151/VPWR user_project_wrapper_151/HI la_data_out[45] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_140 user_project_wrapper_140/VGND VSUBS user_project_wrapper_140/VPB
++ user_project_wrapper_140/VPWR user_project_wrapper_140/HI la_data_out[35] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_196 user_project_wrapper_196/VGND VSUBS user_project_wrapper_196/VPB
-+ user_project_wrapper_196/VPWR user_project_wrapper_196/HI wbs_dat_o[1] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_196/VPWR user_project_wrapper_196/HI la_data_out[86] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_185 user_project_wrapper_185/VGND VSUBS user_project_wrapper_185/VPB
-+ user_project_wrapper_185/VPWR user_project_wrapper_185/HI wbs_dat_o[0] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_175 user_project_wrapper_175/VGND VSUBS user_project_wrapper_175/VPB
-+ user_project_wrapper_175/VPWR user_project_wrapper_175/HI la_data_out[95] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_164 user_project_wrapper_164/VGND VSUBS user_project_wrapper_164/VPB
-+ user_project_wrapper_164/VPWR user_project_wrapper_164/HI la_data_out[85] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_153 user_project_wrapper_153/VGND VSUBS user_project_wrapper_153/VPB
-+ user_project_wrapper_153/VPWR user_project_wrapper_153/HI la_data_out[75] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_142 user_project_wrapper_142/VGND VSUBS user_project_wrapper_142/VPB
-+ user_project_wrapper_142/VPWR user_project_wrapper_142/HI la_data_out[65] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_131 user_project_wrapper_131/VGND VSUBS user_project_wrapper_131/VPB
-+ user_project_wrapper_131/VPWR user_project_wrapper_131/HI la_data_out[55] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_120 user_project_wrapper_120/VGND VSUBS user_project_wrapper_120/VPB
-+ user_project_wrapper_120/VPWR user_project_wrapper_120/HI la_data_out[45] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_186 user_project_wrapper_186/VGND VSUBS user_project_wrapper_186/VPB
-+ user_project_wrapper_186/VPWR user_project_wrapper_186/HI wbs_dat_o[10] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_185/VPWR user_project_wrapper_185/HI la_data_out[76] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_174 user_project_wrapper_174/VGND VSUBS user_project_wrapper_174/VPB
++ user_project_wrapper_174/VPWR user_project_wrapper_174/HI la_data_out[66] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_163 user_project_wrapper_163/VGND VSUBS user_project_wrapper_163/VPB
++ user_project_wrapper_163/VPWR user_project_wrapper_163/HI la_data_out[56] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_152 user_project_wrapper_152/VGND VSUBS user_project_wrapper_152/VPB
++ user_project_wrapper_152/VPWR user_project_wrapper_152/HI la_data_out[46] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_141 user_project_wrapper_141/VGND VSUBS user_project_wrapper_141/VPB
++ user_project_wrapper_141/VPWR user_project_wrapper_141/HI la_data_out[36] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_130 user_project_wrapper_130/VGND VSUBS user_project_wrapper_130/VPB
++ user_project_wrapper_130/VPWR user_project_wrapper_130/HI la_data_out[26] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_197 user_project_wrapper_197/VGND VSUBS user_project_wrapper_197/VPB
-+ user_project_wrapper_197/VPWR user_project_wrapper_197/HI wbs_dat_o[20] sky130_fd_sc_hd__conb_1
-Xrst_inv_inst input1/X rst_inv_inst/VGND VSUBS rst_inv_inst/VPB rst_inv_inst/VPWR
++ user_project_wrapper_197/VPWR user_project_wrapper_197/HI la_data_out[87] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_186 user_project_wrapper_186/VGND VSUBS user_project_wrapper_186/VPB
++ user_project_wrapper_186/VPWR user_project_wrapper_186/HI la_data_out[77] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_175 user_project_wrapper_175/VGND VSUBS user_project_wrapper_175/VPB
++ user_project_wrapper_175/VPWR user_project_wrapper_175/HI la_data_out[67] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_164 user_project_wrapper_164/VGND VSUBS user_project_wrapper_164/VPB
++ user_project_wrapper_164/VPWR user_project_wrapper_164/HI la_data_out[57] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_153 user_project_wrapper_153/VGND VSUBS user_project_wrapper_153/VPB
++ user_project_wrapper_153/VPWR user_project_wrapper_153/HI la_data_out[47] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_142 user_project_wrapper_142/VGND VSUBS user_project_wrapper_142/VPB
++ user_project_wrapper_142/VPWR user_project_wrapper_142/HI la_data_out[37] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_131 user_project_wrapper_131/VGND VSUBS user_project_wrapper_131/VPB
++ user_project_wrapper_131/VPWR user_project_wrapper_131/HI la_data_out[27] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_120 user_project_wrapper_120/VGND VSUBS user_project_wrapper_120/VPB
++ user_project_wrapper_120/VPWR user_project_wrapper_120/HI la_data_out[17] sky130_fd_sc_hd__conb_1
+Xrst_inv_inst wire58/A rst_inv_inst/VGND VSUBS rst_inv_inst/VPB rst_inv_inst/VPWR
 + rst_inv_inst/Y sky130_fd_sc_hd__inv_2
-Xuser_project_wrapper_176 user_project_wrapper_176/VGND VSUBS user_project_wrapper_176/VPB
-+ user_project_wrapper_176/VPWR user_project_wrapper_176/HI la_data_out[96] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_165 user_project_wrapper_165/VGND VSUBS user_project_wrapper_165/VPB
-+ user_project_wrapper_165/VPWR user_project_wrapper_165/HI la_data_out[86] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_154 user_project_wrapper_154/VGND VSUBS user_project_wrapper_154/VPB
-+ user_project_wrapper_154/VPWR user_project_wrapper_154/HI la_data_out[76] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_143 user_project_wrapper_143/VGND VSUBS user_project_wrapper_143/VPB
-+ user_project_wrapper_143/VPWR user_project_wrapper_143/HI la_data_out[66] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_132 user_project_wrapper_132/VGND VSUBS user_project_wrapper_132/VPB
-+ user_project_wrapper_132/VPWR user_project_wrapper_132/HI la_data_out[56] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_121 user_project_wrapper_121/VGND VSUBS user_project_wrapper_121/VPB
-+ user_project_wrapper_121/VPWR user_project_wrapper_121/HI la_data_out[46] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_110 user_project_wrapper_110/VGND VSUBS user_project_wrapper_110/VPB
-+ user_project_wrapper_110/VPWR user_project_wrapper_110/HI la_data_out[36] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_187 user_project_wrapper_187/VGND VSUBS user_project_wrapper_187/VPB
-+ user_project_wrapper_187/VPWR user_project_wrapper_187/HI wbs_dat_o[11] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_110/VPWR user_project_wrapper_110/HI la_data_out[123] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_198 user_project_wrapper_198/VGND VSUBS user_project_wrapper_198/VPB
-+ user_project_wrapper_198/VPWR user_project_wrapper_198/HI wbs_dat_o[21] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_177 user_project_wrapper_177/VGND VSUBS user_project_wrapper_177/VPB
-+ user_project_wrapper_177/VPWR user_project_wrapper_177/HI la_data_out[97] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_166 user_project_wrapper_166/VGND VSUBS user_project_wrapper_166/VPB
-+ user_project_wrapper_166/VPWR user_project_wrapper_166/HI la_data_out[87] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_155 user_project_wrapper_155/VGND VSUBS user_project_wrapper_155/VPB
-+ user_project_wrapper_155/VPWR user_project_wrapper_155/HI la_data_out[77] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_144 user_project_wrapper_144/VGND VSUBS user_project_wrapper_144/VPB
-+ user_project_wrapper_144/VPWR user_project_wrapper_144/HI la_data_out[67] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_133 user_project_wrapper_133/VGND VSUBS user_project_wrapper_133/VPB
-+ user_project_wrapper_133/VPWR user_project_wrapper_133/HI la_data_out[57] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_122 user_project_wrapper_122/VGND VSUBS user_project_wrapper_122/VPB
-+ user_project_wrapper_122/VPWR user_project_wrapper_122/HI la_data_out[47] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_198/VPWR user_project_wrapper_198/HI la_data_out[88] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_187 user_project_wrapper_187/VGND VSUBS user_project_wrapper_187/VPB
++ user_project_wrapper_187/VPWR user_project_wrapper_187/HI la_data_out[78] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_176 user_project_wrapper_176/VGND VSUBS user_project_wrapper_176/VPB
++ user_project_wrapper_176/VPWR user_project_wrapper_176/HI la_data_out[68] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_165 user_project_wrapper_165/VGND VSUBS user_project_wrapper_165/VPB
++ user_project_wrapper_165/VPWR user_project_wrapper_165/HI la_data_out[58] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_154 user_project_wrapper_154/VGND VSUBS user_project_wrapper_154/VPB
++ user_project_wrapper_154/VPWR user_project_wrapper_154/HI la_data_out[48] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_143 user_project_wrapper_143/VGND VSUBS user_project_wrapper_143/VPB
++ user_project_wrapper_143/VPWR user_project_wrapper_143/HI la_data_out[38] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_132 user_project_wrapper_132/VGND VSUBS user_project_wrapper_132/VPB
++ user_project_wrapper_132/VPWR user_project_wrapper_132/HI la_data_out[28] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_121 user_project_wrapper_121/VGND VSUBS user_project_wrapper_121/VPB
++ user_project_wrapper_121/VPWR user_project_wrapper_121/HI la_data_out[18] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_111 user_project_wrapper_111/VGND VSUBS user_project_wrapper_111/VPB
-+ user_project_wrapper_111/VPWR user_project_wrapper_111/HI la_data_out[37] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_111/VPWR user_project_wrapper_111/HI la_data_out[124] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_100 user_project_wrapper_100/VGND VSUBS user_project_wrapper_100/VPB
-+ user_project_wrapper_100/VPWR user_project_wrapper_100/HI la_data_out[27] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_188 user_project_wrapper_188/VGND VSUBS user_project_wrapper_188/VPB
-+ user_project_wrapper_188/VPWR user_project_wrapper_188/HI wbs_dat_o[12] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_100/VPWR user_project_wrapper_100/HI la_data_out[114] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_199 user_project_wrapper_199/VGND VSUBS user_project_wrapper_199/VPB
-+ user_project_wrapper_199/VPWR user_project_wrapper_199/HI wbs_dat_o[22] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_178 user_project_wrapper_178/VGND VSUBS user_project_wrapper_178/VPB
-+ user_project_wrapper_178/VPWR user_project_wrapper_178/HI la_data_out[98] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_167 user_project_wrapper_167/VGND VSUBS user_project_wrapper_167/VPB
-+ user_project_wrapper_167/VPWR user_project_wrapper_167/HI la_data_out[88] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_156 user_project_wrapper_156/VGND VSUBS user_project_wrapper_156/VPB
-+ user_project_wrapper_156/VPWR user_project_wrapper_156/HI la_data_out[78] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_145 user_project_wrapper_145/VGND VSUBS user_project_wrapper_145/VPB
-+ user_project_wrapper_145/VPWR user_project_wrapper_145/HI la_data_out[68] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_134 user_project_wrapper_134/VGND VSUBS user_project_wrapper_134/VPB
-+ user_project_wrapper_134/VPWR user_project_wrapper_134/HI la_data_out[58] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_123 user_project_wrapper_123/VGND VSUBS user_project_wrapper_123/VPB
-+ user_project_wrapper_123/VPWR user_project_wrapper_123/HI la_data_out[48] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_199/VPWR user_project_wrapper_199/HI la_data_out[89] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_188 user_project_wrapper_188/VGND VSUBS user_project_wrapper_188/VPB
++ user_project_wrapper_188/VPWR user_project_wrapper_188/HI la_data_out[79] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_177 user_project_wrapper_177/VGND VSUBS user_project_wrapper_177/VPB
++ user_project_wrapper_177/VPWR user_project_wrapper_177/HI la_data_out[69] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_166 user_project_wrapper_166/VGND VSUBS user_project_wrapper_166/VPB
++ user_project_wrapper_166/VPWR user_project_wrapper_166/HI la_data_out[59] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_155 user_project_wrapper_155/VGND VSUBS user_project_wrapper_155/VPB
++ user_project_wrapper_155/VPWR user_project_wrapper_155/HI la_data_out[49] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_144 user_project_wrapper_144/VGND VSUBS user_project_wrapper_144/VPB
++ user_project_wrapper_144/VPWR user_project_wrapper_144/HI la_data_out[39] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_133 user_project_wrapper_133/VGND VSUBS user_project_wrapper_133/VPB
++ user_project_wrapper_133/VPWR user_project_wrapper_133/HI la_data_out[29] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_122 user_project_wrapper_122/VGND VSUBS user_project_wrapper_122/VPB
++ user_project_wrapper_122/VPWR user_project_wrapper_122/HI la_data_out[19] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_112 user_project_wrapper_112/VGND VSUBS user_project_wrapper_112/VPB
-+ user_project_wrapper_112/VPWR user_project_wrapper_112/HI la_data_out[38] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_112/VPWR user_project_wrapper_112/HI la_data_out[125] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_101 user_project_wrapper_101/VGND VSUBS user_project_wrapper_101/VPB
-+ user_project_wrapper_101/VPWR user_project_wrapper_101/HI la_data_out[28] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_101/VPWR user_project_wrapper_101/HI la_data_out[115] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_123 user_project_wrapper_123/VGND VSUBS user_project_wrapper_123/VPB
++ user_project_wrapper_123/VPWR user_project_wrapper_123/HI la_data_out[1] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_134 user_project_wrapper_134/VGND VSUBS user_project_wrapper_134/VPB
++ user_project_wrapper_134/VPWR user_project_wrapper_134/HI la_data_out[2] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_145 user_project_wrapper_145/VGND VSUBS user_project_wrapper_145/VPB
++ user_project_wrapper_145/VPWR user_project_wrapper_145/HI la_data_out[3] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_156 user_project_wrapper_156/VGND VSUBS user_project_wrapper_156/VPB
++ user_project_wrapper_156/VPWR user_project_wrapper_156/HI la_data_out[4] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_167 user_project_wrapper_167/VGND VSUBS user_project_wrapper_167/VPB
++ user_project_wrapper_167/VPWR user_project_wrapper_167/HI la_data_out[5] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_178 user_project_wrapper_178/VGND VSUBS user_project_wrapper_178/VPB
++ user_project_wrapper_178/VPWR user_project_wrapper_178/HI la_data_out[6] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_189 user_project_wrapper_189/VGND VSUBS user_project_wrapper_189/VPB
-+ user_project_wrapper_189/VPWR user_project_wrapper_189/HI wbs_dat_o[13] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_179 user_project_wrapper_179/VGND VSUBS user_project_wrapper_179/VPB
-+ user_project_wrapper_179/VPWR user_project_wrapper_179/HI la_data_out[99] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_168 user_project_wrapper_168/VGND VSUBS user_project_wrapper_168/VPB
-+ user_project_wrapper_168/VPWR user_project_wrapper_168/HI la_data_out[89] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_157 user_project_wrapper_157/VGND VSUBS user_project_wrapper_157/VPB
-+ user_project_wrapper_157/VPWR user_project_wrapper_157/HI la_data_out[79] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_146 user_project_wrapper_146/VGND VSUBS user_project_wrapper_146/VPB
-+ user_project_wrapper_146/VPWR user_project_wrapper_146/HI la_data_out[69] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_135 user_project_wrapper_135/VGND VSUBS user_project_wrapper_135/VPB
-+ user_project_wrapper_135/VPWR user_project_wrapper_135/HI la_data_out[59] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_124 user_project_wrapper_124/VGND VSUBS user_project_wrapper_124/VPB
-+ user_project_wrapper_124/VPWR user_project_wrapper_124/HI la_data_out[49] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_189/VPWR user_project_wrapper_189/HI la_data_out[7] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_113 user_project_wrapper_113/VGND VSUBS user_project_wrapper_113/VPB
-+ user_project_wrapper_113/VPWR user_project_wrapper_113/HI la_data_out[39] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_113/VPWR user_project_wrapper_113/HI la_data_out[126] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_102 user_project_wrapper_102/VGND VSUBS user_project_wrapper_102/VPB
-+ user_project_wrapper_102/VPWR user_project_wrapper_102/HI la_data_out[29] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_102/VPWR user_project_wrapper_102/HI la_data_out[116] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_179 user_project_wrapper_179/VGND VSUBS user_project_wrapper_179/VPB
++ user_project_wrapper_179/VPWR user_project_wrapper_179/HI la_data_out[70] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_168 user_project_wrapper_168/VGND VSUBS user_project_wrapper_168/VPB
++ user_project_wrapper_168/VPWR user_project_wrapper_168/HI la_data_out[60] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_157 user_project_wrapper_157/VGND VSUBS user_project_wrapper_157/VPB
++ user_project_wrapper_157/VPWR user_project_wrapper_157/HI la_data_out[50] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_146 user_project_wrapper_146/VGND VSUBS user_project_wrapper_146/VPB
++ user_project_wrapper_146/VPWR user_project_wrapper_146/HI la_data_out[40] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_135 user_project_wrapper_135/VGND VSUBS user_project_wrapper_135/VPB
++ user_project_wrapper_135/VPWR user_project_wrapper_135/HI la_data_out[30] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_124 user_project_wrapper_124/VGND VSUBS user_project_wrapper_124/VPB
++ user_project_wrapper_124/VPWR user_project_wrapper_124/HI la_data_out[20] sky130_fd_sc_hd__conb_1
 Xagridrone_inst vssd1 vccd1 output2/A wb_clk_i io_in[21] output11/A output3/A output4/A
 + output5/A output6/A output7/A output8/A output9/A output10/A rst_inv_inst/Y io_in[11]
-+ output12/A io_in[9] io_in[8] output13/A output14/A top
++ output12/A io_in[9] io_in[8] output13/A output52/A top
 Xoutput2 output2/A output2/VGND VSUBS output2/VPB output2/VPWR io_out[23] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_103 user_project_wrapper_103/VGND VSUBS user_project_wrapper_103/VPB
-+ user_project_wrapper_103/VPWR user_project_wrapper_103/HI la_data_out[2] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_114 user_project_wrapper_114/VGND VSUBS user_project_wrapper_114/VPB
-+ user_project_wrapper_114/VPWR user_project_wrapper_114/HI la_data_out[3] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_125 user_project_wrapper_125/VGND VSUBS user_project_wrapper_125/VPB
-+ user_project_wrapper_125/VPWR user_project_wrapper_125/HI la_data_out[4] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_136 user_project_wrapper_136/VGND VSUBS user_project_wrapper_136/VPB
-+ user_project_wrapper_136/VPWR user_project_wrapper_136/HI la_data_out[5] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_147 user_project_wrapper_147/VGND VSUBS user_project_wrapper_147/VPB
-+ user_project_wrapper_147/VPWR user_project_wrapper_147/HI la_data_out[6] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_158 user_project_wrapper_158/VGND VSUBS user_project_wrapper_158/VPB
-+ user_project_wrapper_158/VPWR user_project_wrapper_158/HI la_data_out[7] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_114/VPWR user_project_wrapper_114/HI la_data_out[127] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_103 user_project_wrapper_103/VGND VSUBS user_project_wrapper_103/VPB
++ user_project_wrapper_103/VPWR user_project_wrapper_103/HI la_data_out[117] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_169 user_project_wrapper_169/VGND VSUBS user_project_wrapper_169/VPB
-+ user_project_wrapper_169/VPWR user_project_wrapper_169/HI la_data_out[8] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_169/VPWR user_project_wrapper_169/HI la_data_out[61] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_158 user_project_wrapper_158/VGND VSUBS user_project_wrapper_158/VPB
++ user_project_wrapper_158/VPWR user_project_wrapper_158/HI la_data_out[51] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_147 user_project_wrapper_147/VGND VSUBS user_project_wrapper_147/VPB
++ user_project_wrapper_147/VPWR user_project_wrapper_147/HI la_data_out[41] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_136 user_project_wrapper_136/VGND VSUBS user_project_wrapper_136/VPB
++ user_project_wrapper_136/VPWR user_project_wrapper_136/HI la_data_out[31] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_125 user_project_wrapper_125/VGND VSUBS user_project_wrapper_125/VPB
++ user_project_wrapper_125/VPWR user_project_wrapper_125/HI la_data_out[21] sky130_fd_sc_hd__conb_1
+Xwire58 wire58/A wire58/VGND VSUBS wire58/VPB wire58/VPWR wire58/X sky130_fd_sc_hd__buf_12
 Xoutput3 output3/A output3/VGND VSUBS output3/VPB output3/VPWR io_out[12] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_159 user_project_wrapper_159/VGND VSUBS user_project_wrapper_159/VPB
-+ user_project_wrapper_159/VPWR user_project_wrapper_159/HI la_data_out[80] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_148 user_project_wrapper_148/VGND VSUBS user_project_wrapper_148/VPB
-+ user_project_wrapper_148/VPWR user_project_wrapper_148/HI la_data_out[70] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_137 user_project_wrapper_137/VGND VSUBS user_project_wrapper_137/VPB
-+ user_project_wrapper_137/VPWR user_project_wrapper_137/HI la_data_out[60] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_126 user_project_wrapper_126/VGND VSUBS user_project_wrapper_126/VPB
-+ user_project_wrapper_126/VPWR user_project_wrapper_126/HI la_data_out[50] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_115 user_project_wrapper_115/VGND VSUBS user_project_wrapper_115/VPB
-+ user_project_wrapper_115/VPWR user_project_wrapper_115/HI la_data_out[40] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_104 user_project_wrapper_104/VGND VSUBS user_project_wrapper_104/VPB
-+ user_project_wrapper_104/VPWR user_project_wrapper_104/HI la_data_out[30] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_104/VPWR user_project_wrapper_104/HI la_data_out[118] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_159 user_project_wrapper_159/VGND VSUBS user_project_wrapper_159/VPB
++ user_project_wrapper_159/VPWR user_project_wrapper_159/HI la_data_out[52] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_148 user_project_wrapper_148/VGND VSUBS user_project_wrapper_148/VPB
++ user_project_wrapper_148/VPWR user_project_wrapper_148/HI la_data_out[42] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_137 user_project_wrapper_137/VGND VSUBS user_project_wrapper_137/VPB
++ user_project_wrapper_137/VPWR user_project_wrapper_137/HI la_data_out[32] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_126 user_project_wrapper_126/VGND VSUBS user_project_wrapper_126/VPB
++ user_project_wrapper_126/VPWR user_project_wrapper_126/HI la_data_out[22] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_115 user_project_wrapper_115/VGND VSUBS user_project_wrapper_115/VPB
++ user_project_wrapper_115/VPWR user_project_wrapper_115/HI la_data_out[12] sky130_fd_sc_hd__conb_1
 Xoutput4 output4/A output4/VGND VSUBS output4/VPB output4/VPWR io_out[13] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_149 user_project_wrapper_149/VGND VSUBS user_project_wrapper_149/VPB
-+ user_project_wrapper_149/VPWR user_project_wrapper_149/HI la_data_out[71] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_138 user_project_wrapper_138/VGND VSUBS user_project_wrapper_138/VPB
-+ user_project_wrapper_138/VPWR user_project_wrapper_138/HI la_data_out[61] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_127 user_project_wrapper_127/VGND VSUBS user_project_wrapper_127/VPB
-+ user_project_wrapper_127/VPWR user_project_wrapper_127/HI la_data_out[51] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_116 user_project_wrapper_116/VGND VSUBS user_project_wrapper_116/VPB
-+ user_project_wrapper_116/VPWR user_project_wrapper_116/HI la_data_out[41] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_105 user_project_wrapper_105/VGND VSUBS user_project_wrapper_105/VPB
-+ user_project_wrapper_105/VPWR user_project_wrapper_105/HI la_data_out[31] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_105/VPWR user_project_wrapper_105/HI la_data_out[119] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_149 user_project_wrapper_149/VGND VSUBS user_project_wrapper_149/VPB
++ user_project_wrapper_149/VPWR user_project_wrapper_149/HI la_data_out[43] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_138 user_project_wrapper_138/VGND VSUBS user_project_wrapper_138/VPB
++ user_project_wrapper_138/VPWR user_project_wrapper_138/HI la_data_out[33] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_127 user_project_wrapper_127/VGND VSUBS user_project_wrapper_127/VPB
++ user_project_wrapper_127/VPWR user_project_wrapper_127/HI la_data_out[23] sky130_fd_sc_hd__conb_1
+Xoutput50 output51/A output50/VGND VSUBS output50/VPB output50/VPWR io_oeb[8] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_116 user_project_wrapper_116/VGND VSUBS user_project_wrapper_116/VPB
++ user_project_wrapper_116/VPWR user_project_wrapper_116/HI la_data_out[13] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_90 user_project_wrapper_90/VGND VSUBS user_project_wrapper_90/VPB
-+ user_project_wrapper_90/VPWR user_project_wrapper_90/HI la_data_out[18] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_90/VPWR user_project_wrapper_90/HI la_data_out[105] sky130_fd_sc_hd__conb_1
 Xoutput5 output5/A output5/VGND VSUBS output5/VPB output5/VPWR io_out[14] sky130_fd_sc_hd__buf_4
+Xoutput40 output41/A output40/VGND VSUBS output40/VPB output40/VPWR io_oeb[33] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_139 user_project_wrapper_139/VGND VSUBS user_project_wrapper_139/VPB
-+ user_project_wrapper_139/VPWR user_project_wrapper_139/HI la_data_out[62] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_139/VPWR user_project_wrapper_139/HI la_data_out[34] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_128 user_project_wrapper_128/VGND VSUBS user_project_wrapper_128/VPB
-+ user_project_wrapper_128/VPWR user_project_wrapper_128/HI la_data_out[52] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_117 user_project_wrapper_117/VGND VSUBS user_project_wrapper_117/VPB
-+ user_project_wrapper_117/VPWR user_project_wrapper_117/HI la_data_out[42] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_128/VPWR user_project_wrapper_128/HI la_data_out[24] sky130_fd_sc_hd__conb_1
+Xoutput51 output51/A output51/VGND VSUBS output51/VPB output51/VPWR io_oeb[9] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_106 user_project_wrapper_106/VGND VSUBS user_project_wrapper_106/VPB
-+ user_project_wrapper_106/VPWR user_project_wrapper_106/HI la_data_out[32] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_106/VPWR user_project_wrapper_106/HI la_data_out[11] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_117 user_project_wrapper_117/VGND VSUBS user_project_wrapper_117/VPB
++ user_project_wrapper_117/VPWR user_project_wrapper_117/HI la_data_out[14] sky130_fd_sc_hd__conb_1
+Xoutput30 output44/A output30/VGND VSUBS output30/VPB output30/VPWR io_oeb[24] sky130_fd_sc_hd__buf_4
+Xoutput52 output52/A output52/VGND VSUBS output52/VPB output52/VPWR io_out[24] sky130_fd_sc_hd__buf_4
 Xoutput6 output6/A output6/VGND VSUBS output6/VPB output6/VPWR io_out[15] sky130_fd_sc_hd__buf_4
-Xuser_project_wrapper_80 user_project_wrapper_80/VGND VSUBS user_project_wrapper_80/VPB
-+ user_project_wrapper_80/VPWR user_project_wrapper_80/HI la_data_out[124] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_129 user_project_wrapper_129/VGND VSUBS user_project_wrapper_129/VPB
-+ user_project_wrapper_129/VPWR user_project_wrapper_129/HI la_data_out[53] sky130_fd_sc_hd__conb_1
-Xuser_project_wrapper_118 user_project_wrapper_118/VGND VSUBS user_project_wrapper_118/VPB
-+ user_project_wrapper_118/VPWR user_project_wrapper_118/HI la_data_out[43] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_107 user_project_wrapper_107/VGND VSUBS user_project_wrapper_107/VPB
-+ user_project_wrapper_107/VPWR user_project_wrapper_107/HI la_data_out[33] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_107/VPWR user_project_wrapper_107/HI la_data_out[120] sky130_fd_sc_hd__conb_1
 Xuser_project_wrapper_91 user_project_wrapper_91/VGND VSUBS user_project_wrapper_91/VPB
-+ user_project_wrapper_91/VPWR user_project_wrapper_91/HI la_data_out[19] sky130_fd_sc_hd__conb_1
++ user_project_wrapper_91/VPWR user_project_wrapper_91/HI la_data_out[106] sky130_fd_sc_hd__conb_1
+Xoutput41 output41/A output41/VGND VSUBS output41/VPB output41/VPWR io_oeb[34] sky130_fd_sc_hd__buf_4
+Xuser_project_wrapper_129 user_project_wrapper_129/VGND VSUBS user_project_wrapper_129/VPB
++ user_project_wrapper_129/VPWR user_project_wrapper_129/HI la_data_out[25] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_80 user_project_wrapper_80/VGND VSUBS user_project_wrapper_80/VPB
++ user_project_wrapper_80/VPWR user_project_wrapper_80/HI io_out[6] sky130_fd_sc_hd__conb_1
+Xuser_project_wrapper_118 user_project_wrapper_118/VGND VSUBS user_project_wrapper_118/VPB
++ user_project_wrapper_118/VPWR user_project_wrapper_118/HI la_data_out[15] sky130_fd_sc_hd__conb_1
 .ends
 
