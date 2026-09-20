@@ -10,7 +10,7 @@
         "dir::../src/safety_watchdog.v"
     ],
 
-    "CLOCK_PORT": "clk",
+    "CLOCK_PORT": "wb_clk_i",
     "CLOCK_NET": "clk",
     "CLOCK_PERIOD": 20.0,
 

@@ -20,7 +20,7 @@ module top #(
     parameter CLK_HZ = 50_000_000
 ) (
     input  wire        clk,
-    input  wire        rst_n,
+    input  wire        wb_rst_i,
 
     // SPI slave (to host MCU)
     input  wire        spi_sclk,
@@ -58,6 +58,8 @@ module top #(
     wire [15:0] spray_flow_count;
     wire [15:0] alt_baro_in, alt_sonar_in, alt_alpha_q15, alt_fused;
     wire        alt_update_pulse;
+
+    wire rst_n = ~wb_rst_i;
 
     // --- Status ---
     wire wdog_trip;

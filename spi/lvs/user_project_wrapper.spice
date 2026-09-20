@@ -18,8 +18,8 @@
 
 * Black-box entry subcircuit for top abstract view
 .subckt top VGND VPWR armed_led clk flow_pulse kill_n pwm_out[0] pwm_out[1] pwm_out[2]
-+ pwm_out[3] pwm_out[4] pwm_out[5] pwm_out[6] pwm_out[7] rst_n spi_cs_n spi_miso spi_mosi
-+ spi_sclk spray_pwm wdog_trip_led
++ pwm_out[3] pwm_out[4] pwm_out[5] pwm_out[6] pwm_out[7] spi_cs_n spi_miso spi_mosi
++ spi_sclk spray_pwm wb_rst_i wdog_trip_led
 .ends
 
 .subckt user_project_wrapper analog_io[0] analog_io[10] analog_io[11] analog_io[12]
@@ -533,8 +533,8 @@ Xuser_project_wrapper_113 user_project_wrapper_113/VGND VSUBS user_project_wrapp
 Xuser_project_wrapper_102 user_project_wrapper_102/VGND VSUBS user_project_wrapper_102/VPB
 + user_project_wrapper_102/VPWR user_project_wrapper_102/HI la_data_out[29] sky130_fd_sc_hd__conb_1
 Xagridrone_inst vssd1 vccd1 output2/A wb_clk_i io_in[21] output11/A output3/A output4/A
-+ output5/A output6/A output7/A output8/A output9/A output10/A rst_inv_inst/Y io_in[11]
-+ output12/A io_in[9] io_in[8] output13/A output14/A top
++ output5/A output6/A output7/A output8/A output9/A output10/A io_in[11] output12/A
++ io_in[9] io_in[8] output13/A input1/X output14/A top
 Xoutput2 output2/A output2/VGND VSUBS output2/VPB output2/VPWR io_out[23] sky130_fd_sc_hd__buf_4
 Xuser_project_wrapper_103 user_project_wrapper_103/VGND VSUBS user_project_wrapper_103/VPB
 + user_project_wrapper_103/VPWR user_project_wrapper_103/HI la_data_out[2] sky130_fd_sc_hd__conb_1

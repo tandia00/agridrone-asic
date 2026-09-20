@@ -150,7 +150,7 @@ module user_project_wrapper #(
     // -----------------------------------------------------------
     top agridrone_inst (
         .clk(clk),
-        .rst_n(rst_n),
+        .wb_rst_i(wb_rst_i),
         .spi_sclk(spi_sclk),
         .spi_mosi(spi_mosi),
         .spi_miso(spi_miso),

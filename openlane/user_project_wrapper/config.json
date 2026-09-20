@@ -17,7 +17,7 @@
     ],
 
     "CLOCK_PORT": "wb_clk_i",
-    "CLOCK_NET": "agridrone_inst.clk",
+    "CLOCK_NET": "agridrone_inst.wb_clk_i",
     "CLOCK_PERIOD": 20.0,
 
     "FP_SIZING": "absolute",
